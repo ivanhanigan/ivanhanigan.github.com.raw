@@ -6,13 +6,12 @@ date: 2013-04-06
 categories: 
 - spatial dependence
 ---
-
 <head>
 <title>adjacency example </title>
 <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
 <meta name="title" content="adjacency example "/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2013-04-06 09:34:17 EST"/>
+<meta name="generated" content="2013-09-24T21:01+1000"/>
 <meta name="author" content="Ivan Hanigan"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -66,6 +65,30 @@ categories:
   /*]]>*/-->
 </style>
 <script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
 <!--/*--><![CDATA[/*><!--*/
  function CodeHighlightOn(elem, id)
  {
@@ -88,6 +111,56 @@ categories:
 /*]]>*///-->
 </script>
 <script type="text/javascript" src="http://orgmode.org/mathjax/MathJax.js">
+/**
+ *
+ * @source: http://orgmode.org/mathjax/MathJax.js
+ *
+ * @licstart  The following is the entire license notice for the
+ *  JavaScript code in http://orgmode.org/mathjax/MathJax.js.
+ *
+ * Copyright (C) 2012-2013  MathJax
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * @licend  The above is the entire license notice
+ * for the JavaScript code in http://orgmode.org/mathjax/MathJax.js.
+ *
+ */
+
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code below.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code below is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code below.
+*/
 <!--/*--><![CDATA[/*><!--*/
     MathJax.Hub.Config({
         // Only one of the two following lines, depending on user settings
@@ -136,24 +209,24 @@ categories:
 </div>
 
 <div id="content">
-
+<h1 class="title">adjacency example </h1>
 
 
 <hr/>
 
-<!-- <div id="table-of-contents"> -->
-<!-- <h2>Table of Contents</h2> -->
-<!-- <div id="text-table-of-contents"> -->
-<!-- <ul> -->
-<!-- <li><a href="#sec-1">1 Introduction</a></li> -->
-<!-- <li><a href="#sec-2">2 Load some test data</a></li> -->
-<!-- <li><a href="#sec-3">3 spdep calculates neighbours</a></li> -->
-<!-- <li><a href="#sec-4">4 plot these</a></li> -->
-<!-- <li><a href="#sec-5">5 function to return adjacency list as a dataframe</a></li> -->
-<!-- <li><a href="#sec-6">6 test-adjacency df</a></li> -->
-<!-- </ul> -->
-<!-- </div> -->
-<!-- </div> -->
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1 Introduction</a></li>
+<li><a href="#sec-2">2 Load some test data</a></li>
+<li><a href="#sec-3">3 spdep calculates neighbours</a></li>
+<li><a href="#sec-4">4 plot these</a></li>
+<li><a href="#sec-5">5 function to return adjacency list as a dataframe</a></li>
+<li><a href="#sec-6">6 test-adjacency df</a></li>
+</ul>
+</div>
+</div>
 
 <div id="outline-container-1" class="outline-2">
 <h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
@@ -178,9 +251,10 @@ I think the simplest option is to use the spatial lag model, which can be fitted
 
 <pre class="src src-R"><span style="color: #586e75;"># </span><span style="color: #586e75;">we have access to a classic dataset for studying spatial dependence</span>
 <span style="color: #586e75;"># </span><span style="color: #586e75;">in the spdep package</span>
-<span style="color: #268bd2; font-weight: bold;">require</span>(spdep)
-<span style="color: #268bd2; font-weight: bold;">require</span>(rgdal)
-<span style="color: #268bd2; font-weight: bold;">require</span>(maps)
+<span style="color: #859900; font-weight: bold;">if</span>(!<span style="color: #268bd2; font-weight: bold;">require</span>(spdep))    install.packages(spdep); <span style="color: #268bd2; font-weight: bold;">require</span>(spdep)     
+<span style="color: #859900; font-weight: bold;">if</span>(!<span style="color: #268bd2; font-weight: bold;">require</span>(rgdal))    install.packages(rgdal); <span style="color: #268bd2; font-weight: bold;">require</span>(rgdal) 
+<span style="color: #859900; font-weight: bold;">if</span>(!<span style="color: #268bd2; font-weight: bold;">require</span>(maptools)) install.packages(maptools); <span style="color: #268bd2; font-weight: bold;">require</span>(maptools) 
+<span style="color: #859900; font-weight: bold;">if</span>(!<span style="color: #268bd2; font-weight: bold;">require</span>(maps))     install.packages(maps); <span style="color: #268bd2; font-weight: bold;">require</span>(maps) 
 fn <span style="color: #268bd2; font-weight: bold;">&lt;-</span> system.file(<span style="color: #2aa198;">"etc/shapes/eire.shp"</span>, package=<span style="color: #2aa198;">"spdep"</span>)[1]
 prj <span style="color: #268bd2; font-weight: bold;">&lt;-</span> CRS(<span style="color: #2aa198;">"+proj=utm +zone=30 +units=km"</span>)
 eire <span style="color: #268bd2; font-weight: bold;">&lt;-</span> readShapeSpatial(fn, ID=<span style="color: #2aa198;">"names"</span>, proj4string=prj)
@@ -194,7 +268,6 @@ head(eire@data)
 
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption></caption>
 <colgroup><col class="right" /><col class="right" /><col class="right" /><col class="right" /><col class="right" /><col class="right" /><col class="right" /><col class="right" /><col class="right" /><col class="left" />
 </colgroup>
 <thead>
@@ -265,7 +338,7 @@ dev.off()
 
 
 <p>
-<img src="images/Fig1.png"  alt="images/Fig1.png" />
+<img src="/images/Fig1.png"  alt="images/Fig1.png" />
 </p>
 </div>
 
@@ -321,7 +394,6 @@ adj
 
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption></caption>
 <colgroup><col class="left" /><col class="left" />
 </colgroup>
 <tbody>
@@ -346,7 +418,99 @@ adj
 <tr><td class="left">Dublin</td><td class="left">Kildare</td></tr>
 <tr><td class="left">Dublin</td><td class="left">Meath</td></tr>
 <tr><td class="left">Dublin</td><td class="left">Wicklow</td></tr>
-<tr><td class="left">...</td><td class="left">Dataframe Truncated</td></tr>
+<tr><td class="left">Galway</td><td class="left">Clare</td></tr>
+<tr><td class="left">Galway</td><td class="left">Mayo</td></tr>
+<tr><td class="left">Galway</td><td class="left">Offaly</td></tr>
+<tr><td class="left">Galway</td><td class="left">Roscommon</td></tr>
+<tr><td class="left">Galway</td><td class="left">Tipperary</td></tr>
+<tr><td class="left">Kerry</td><td class="left">Cork</td></tr>
+<tr><td class="left">Kerry</td><td class="left">Limerick</td></tr>
+<tr><td class="left">Kildare</td><td class="left">Carlow</td></tr>
+<tr><td class="left">Kildare</td><td class="left">Dublin</td></tr>
+<tr><td class="left">Kildare</td><td class="left">Laoghis</td></tr>
+<tr><td class="left">Kildare</td><td class="left">Meath</td></tr>
+<tr><td class="left">Kildare</td><td class="left">Offaly</td></tr>
+<tr><td class="left">Kildare</td><td class="left">Wicklow</td></tr>
+<tr><td class="left">Kilkenny</td><td class="left">Carlow</td></tr>
+<tr><td class="left">Kilkenny</td><td class="left">Laoghis</td></tr>
+<tr><td class="left">Kilkenny</td><td class="left">Tipperary</td></tr>
+<tr><td class="left">Kilkenny</td><td class="left">Waterford</td></tr>
+<tr><td class="left">Kilkenny</td><td class="left">Wexford</td></tr>
+<tr><td class="left">Laoghis</td><td class="left">Carlow</td></tr>
+<tr><td class="left">Laoghis</td><td class="left">Kildare</td></tr>
+<tr><td class="left">Laoghis</td><td class="left">Kilkenny</td></tr>
+<tr><td class="left">Laoghis</td><td class="left">Offaly</td></tr>
+<tr><td class="left">Laoghis</td><td class="left">Tipperary</td></tr>
+<tr><td class="left">Leitrim</td><td class="left">Cavan</td></tr>
+<tr><td class="left">Leitrim</td><td class="left">Donegal</td></tr>
+<tr><td class="left">Leitrim</td><td class="left">Longford</td></tr>
+<tr><td class="left">Leitrim</td><td class="left">Roscommon</td></tr>
+<tr><td class="left">Leitrim</td><td class="left">Sligo</td></tr>
+<tr><td class="left">Limerick</td><td class="left">Clare</td></tr>
+<tr><td class="left">Limerick</td><td class="left">Cork</td></tr>
+<tr><td class="left">Limerick</td><td class="left">Kerry</td></tr>
+<tr><td class="left">Limerick</td><td class="left">Tipperary</td></tr>
+<tr><td class="left">Longford</td><td class="left">Cavan</td></tr>
+<tr><td class="left">Longford</td><td class="left">Leitrim</td></tr>
+<tr><td class="left">Longford</td><td class="left">Roscommon</td></tr>
+<tr><td class="left">Longford</td><td class="left">Westmeath</td></tr>
+<tr><td class="left">Louth</td><td class="left">Meath</td></tr>
+<tr><td class="left">Louth</td><td class="left">Monaghan</td></tr>
+<tr><td class="left">Mayo</td><td class="left">Galway</td></tr>
+<tr><td class="left">Mayo</td><td class="left">Roscommon</td></tr>
+<tr><td class="left">Mayo</td><td class="left">Sligo</td></tr>
+<tr><td class="left">Meath</td><td class="left">Cavan</td></tr>
+<tr><td class="left">Meath</td><td class="left">Dublin</td></tr>
+<tr><td class="left">Meath</td><td class="left">Kildare</td></tr>
+<tr><td class="left">Meath</td><td class="left">Louth</td></tr>
+<tr><td class="left">Meath</td><td class="left">Monaghan</td></tr>
+<tr><td class="left">Meath</td><td class="left">Offaly</td></tr>
+<tr><td class="left">Meath</td><td class="left">Westmeath</td></tr>
+<tr><td class="left">Monaghan</td><td class="left">Cavan</td></tr>
+<tr><td class="left">Monaghan</td><td class="left">Louth</td></tr>
+<tr><td class="left">Monaghan</td><td class="left">Meath</td></tr>
+<tr><td class="left">Offaly</td><td class="left">Galway</td></tr>
+<tr><td class="left">Offaly</td><td class="left">Kildare</td></tr>
+<tr><td class="left">Offaly</td><td class="left">Laoghis</td></tr>
+<tr><td class="left">Offaly</td><td class="left">Meath</td></tr>
+<tr><td class="left">Offaly</td><td class="left">Roscommon</td></tr>
+<tr><td class="left">Offaly</td><td class="left">Tipperary</td></tr>
+<tr><td class="left">Offaly</td><td class="left">Westmeath</td></tr>
+<tr><td class="left">Roscommon</td><td class="left">Galway</td></tr>
+<tr><td class="left">Roscommon</td><td class="left">Leitrim</td></tr>
+<tr><td class="left">Roscommon</td><td class="left">Longford</td></tr>
+<tr><td class="left">Roscommon</td><td class="left">Mayo</td></tr>
+<tr><td class="left">Roscommon</td><td class="left">Offaly</td></tr>
+<tr><td class="left">Roscommon</td><td class="left">Sligo</td></tr>
+<tr><td class="left">Roscommon</td><td class="left">Westmeath</td></tr>
+<tr><td class="left">Sligo</td><td class="left">Leitrim</td></tr>
+<tr><td class="left">Sligo</td><td class="left">Mayo</td></tr>
+<tr><td class="left">Sligo</td><td class="left">Roscommon</td></tr>
+<tr><td class="left">Tipperary</td><td class="left">Clare</td></tr>
+<tr><td class="left">Tipperary</td><td class="left">Cork</td></tr>
+<tr><td class="left">Tipperary</td><td class="left">Galway</td></tr>
+<tr><td class="left">Tipperary</td><td class="left">Kilkenny</td></tr>
+<tr><td class="left">Tipperary</td><td class="left">Laoghis</td></tr>
+<tr><td class="left">Tipperary</td><td class="left">Limerick</td></tr>
+<tr><td class="left">Tipperary</td><td class="left">Offaly</td></tr>
+<tr><td class="left">Tipperary</td><td class="left">Waterford</td></tr>
+<tr><td class="left">Waterford</td><td class="left">Cork</td></tr>
+<tr><td class="left">Waterford</td><td class="left">Kilkenny</td></tr>
+<tr><td class="left">Waterford</td><td class="left">Tipperary</td></tr>
+<tr><td class="left">Waterford</td><td class="left">Wexford</td></tr>
+<tr><td class="left">Westmeath</td><td class="left">Cavan</td></tr>
+<tr><td class="left">Westmeath</td><td class="left">Longford</td></tr>
+<tr><td class="left">Westmeath</td><td class="left">Meath</td></tr>
+<tr><td class="left">Westmeath</td><td class="left">Offaly</td></tr>
+<tr><td class="left">Westmeath</td><td class="left">Roscommon</td></tr>
+<tr><td class="left">Wexford</td><td class="left">Carlow</td></tr>
+<tr><td class="left">Wexford</td><td class="left">Kilkenny</td></tr>
+<tr><td class="left">Wexford</td><td class="left">Waterford</td></tr>
+<tr><td class="left">Wexford</td><td class="left">Wicklow</td></tr>
+<tr><td class="left">Wicklow</td><td class="left">Carlow</td></tr>
+<tr><td class="left">Wicklow</td><td class="left">Dublin</td></tr>
+<tr><td class="left">Wicklow</td><td class="left">Kildare</td></tr>
+<tr><td class="left">Wicklow</td><td class="left">Wexford</td></tr>
 </tbody>
 </table>
 
@@ -355,4 +519,4 @@ adj
 </div>
 
 </body>
-
+</html>
