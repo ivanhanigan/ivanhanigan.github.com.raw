@@ -644,6 +644,8 @@ cp ~/Dropbox/projects/JCU/pumilio/pumilio.html pumilio.html
 ** PhD thesis: Disentangling the Health Impacts of Environmental Change from Social Factors      
 ** Rates, Standardisation and Adjustment
 ** Spatio-temporal regression models
+[[~/Dropbox/projects/spatiotemporal-regression-models/spatiotemporal.org
+]]
 ** Workflow
 [[~/Dropbox/projects/swish/swish-overview.org]]
 * go
