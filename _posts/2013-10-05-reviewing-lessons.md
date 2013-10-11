@@ -34,7 +34,7 @@ A guiding principle I use for writing the 'What' section is the three stages: th
 This is where I might pick out the key topics that are being presented, and write down my prior knowledge and preconceptions about the topic.
 
 - Antithesis:
-What's the main message(s) of the presenter?  What are their priorities?  What secondary (surrogate) priorities emerge around the main points?  If I bring questions to the lesson are they answered by the presenter?  If not why?
+What's the main message(s) of the presenter?  What are their priorities?  What secondary (surrogate) topics emerge around the main points?  If I bring questions to the lesson are they answered by the presenter?  If not why?
 
 - Synthesis:
 My new understanding of the topic.  
