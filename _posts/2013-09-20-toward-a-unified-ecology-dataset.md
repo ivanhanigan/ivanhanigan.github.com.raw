@@ -3,7 +3,7 @@ name: toward-a-unified-ecology-dataset
 layout: post
 title: toward-a-unified-ecology-dataset
 categories:
-- DataDocumentation
+- Data Documentation
 ---
 
 # Ecology datasets
