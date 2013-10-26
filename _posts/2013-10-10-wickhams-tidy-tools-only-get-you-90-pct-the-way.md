@@ -71,6 +71,62 @@ So I thought what's the other 10?  Here's a few contenders for my work:
                 ndays = length(unique(Day))
                 )
     head(df)
+
+#### Passing variables to ddply for summary
+    # Notice how the name of the variable Temp doesn't need quotes?
+    # this means that you need to hard code the names
+    # But if you want to pass variables to this inside a function we need a
+    # different approach.
+
+    summarise_df  <- function(x, by, var1, var2, var3)
+      {
+        data_out <- ddply(x,
+                          by,
+                          function(df) return(
+                            c(
+                              tmax = max(df[,var1]),
+                              tav = mean(df[,var2]),
+                              ndays = length(unique(df[,var3]))
+                              )
+                            )
+                          )
+        return(data_out)
+      }
+
+    df2 <- summarise_df(x = airquality, by = "Month",
+                       var1 = "Temp", var2 = "Temp", var3 = "Day"
+                       )
+    
+    head(df2)
+    all.equal(df,df2)
+    # TRUE
+
+#### Another alternative, if we want to pass the dataset as string too
+    summarise_df2  <- function(x, by, var1, var2, var3)
+      {
+        data_out <- eval(
+          parse(
+            text =
+            sprintf(
+              "ddply(.data = %s,
+                .variables = '%s',
+                .fun = summarise,
+                tmax = max(%s),
+                tav = mean(%s),
+                ndays = length(unique(%s))
+                )", x, by, var1, var2, var3
+              )
+            )
+          )
+        return(data_out)
+      }
+
+    df3 <- summarise_df2(x = "airquality", by = "Month",
+                         var1 = "Temp", var2 = "Temp", var3 = "Day"
+                         )
+    head(df3)
+    all.equal(df, df3)
+    # TRUE
 #### R-arrange
     # Re-order the rows of a data.frame
     df <- arrange(airquality, Temp, Ozone)
