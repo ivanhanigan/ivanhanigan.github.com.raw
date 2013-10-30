@@ -46,6 +46,32 @@ The data (and related statistical theory) come from:
     dir.create("inst/extdata", recursive=T)
     write.csv(civst_gend_sector, "inst/extdata/civst_gend_sector.csv", row.names = F)
 
+<p></p>
+
+That is fine and good, we can use the case weights option to include number of cases but sometimes we want to use one row per person.
+In the next chunk of code I;ll reformat the data, and also add another fictitious variable called income and contrive an example where a certain group earns less based on their activity sector.
+
+#### Code:
+    df <- as.data.frame(matrix(NA, nrow = 0, ncol = 3))
+    for(i in 1:nrow(civst_gend_sector))
+        {
+        #    i <- 1
+            n <- civst_gend_sector$number_of_cases[i]
+            if(n == 0) next
+            for(j in 1:n)
+                {
+                  df <- rbind(df, civst_gend_sector[i,1:3])              
+                }
+     
+        }
+
+    df$income  <- rnorm(nrow(df), 1000,200)
+    # Let us say secondary men earn less
+    df$income[df$gender == "male" & df$activity == "secondary"]  <- df$income[df$gender == "male" & df$activity == "secondary"] - 500
+    str(df)
+    # save this for use later
+    write.csv(df, "inst/extdata/civst_gend_sector_full.csv", row.names = F)
+
 #### Motivating reason for using these data
 Classification and Regression Tree models (also referred to as Decision Trees) are one of the building blocks of data mining and a great tool for Exploratory Data Analysis.
 
