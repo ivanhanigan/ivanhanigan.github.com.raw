@@ -136,6 +136,20 @@ The citation information is provided when you make a request to access the data.
 </ul>
 <ul>
 <li id="sec-1-3-3">A workflow to download and process the public BoM weather grids.<br/>
+<div id="outline-container-1" class="outline-3">
+<h3 id="sec-1"><span class="section-number-3">1</span> R-depends</h3>
+<div class="outline-text-3" id="text-1">
+
+
+
+
+<pre class="src src-R"><span style="color: #7f9f7f;"># </span><span style="color: #7f9f7f;">depends</span>
+install.packages(c(<span style="color: #cc9393;">'raster'</span>, <span style="color: #cc9393;">'rgdal'</span>, <span style="color: #cc9393;">'plyr'</span>, <span style="color: #cc9393;">'RODBC'</span>, <span style="color: #cc9393;">'RCurl'</span>, <span style="color: #cc9393;">'XML'</span>, <span style="color: #cc9393;">'ggmap'</span>, <span style="color: #cc9393;">'maptools'</span>, <span style="color: #cc9393;">'spdep'</span>))
+
+</pre>
+
+</div>
+</div>
 
 <ul>
 <li>This workflow uses the open source R software with some of our custom written packages:
@@ -243,7 +257,9 @@ cfiles <span style="color: #268bd2; font-weight: bold;">&lt;-</span>  dir(patter
 </li>
 <li>We're not sure what causes this discrepancy, but thought we'd note that there is one.
 </li>
-<li>For Markus' manuscript, the fact that means from daily min/max were practially identical in 1961-1990 and 2012 is enough.
+<li>For the manuscript, we ended up using the means obtained via BOM's method* to compare 1961-1990 values to 2012, both computed with the above script.
+</li>
+<li>(* average of daily min/max temperature for each year, then averaged across the entire 30 year period)
 </li>
 </ul>
 
@@ -351,17 +367,9 @@ mean(annmean1) - mean(annmean2)
 
 
 <ul>
-<li>Principal findings 
+<li>Principal findings: Very convenient automated extraction of location-based time series data for the precise period that is requested.
 </li>
-<li>Strengths 
-</li>
-<li>Weaknesses 
-</li>
-<li>Comparison with other studies 
-</li>
-<li>What do the results mean? 
-</li>
-<li>What are the policy implications?
+<li>Weaknesses (whole method, not your script): very long download time for daily grids (~11.000 grids = huge dataset, took several days in my case). Yearly grids would be beneficial (and I believe most others are also looking mainly for data on a yearly (or larger) scale).
 </li>
 </ul>
 
@@ -370,12 +378,9 @@ mean(annmean1) - mean(annmean2)
 <li id="sec-5-1">Conclusion<br/>
 
 <ul>
-<li>So what is the main 'take-home' message?
-</li>
-<li>How do you rate the approach overall?
+<li>Take home message: Seems like a perfect case of "double-check the data using one and the same method".
 </li>
 </ul>
-
 
 
 </li>
