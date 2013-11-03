@@ -20,10 +20,12 @@ categories:
 #### R Code:
      
     ###############################################
+    require(reshape2)
+
     ###############################################
     #read csv file with rain BoM data
     dat = read.csv('raj_rain_data.csv')
-     
+
     fn <- apply(dat[,2:13], 2, ecdf) # equivalent to Excel's percentrank function, only for cols 2 to 13 but you need to apply the function to each month
      
     #this fun does all the months at once
@@ -31,20 +33,27 @@ categories:
     colnames(fn2) = colnames(dat[,2:13])
     fn2$year = dat$Year
      
-    #if the value is lower than 0.4, retrieves a 1, otherwise 0 fn2$drought = rowSums(ifelse(apply(fn2[,1:12], 2, FUN= function (x) x < 0.4)==TRUE, 1,0))
+    #if the value is lower than 0.4, retrieves a 1, otherwise 0
+    fn2$drought = rowSums(ifelse(apply(fn2[,1:12], 2, FUN= function (x) x < 0.4)==TRUE, 1,0))
      
-    #if the value is lower than 0.1, retrieves a 1, otherwise 0 fn2$extreme = rowSums(ifelse(apply(fn2[,1:12], 2, FUN= function (x) x < 0.1)==TRUE, 1,0))
+    #if the value is lower than 0.1, retrieves a 1, otherwise 0
+    fn2$extreme = rowSums(ifelse(apply(fn2[,1:12], 2, FUN= function (x) x < 0.1)==TRUE, 1,0))
      
     str(fn2)
     names(fn2)
      
-    #ts didn't work - Francis suggested to melt the data.frame # Melt fn2 to tall data set fn2.tall <- melt(fn2, id.vars="year")
+    #ts didn't work - Francis suggested to melt the data.frame # Melt
+    #fn2 to tall data set
+    fn2.tall <- melt(fn2, id.vars="year")
      
     # Get the year-month into date format
     fn2.tall$date <- with(fn2.tall,
                                  as.Date(paste("1", variable, year), "%d %b %Y"))
      
-    # Convert dates into months since 0 BC/AD (arbitrary, but doesn't matter) #I'm not using the month.idx with Ivan's solution (remove) fn2.tall$mnth.idx <- sapply(fn2.tall$date, function(x){
+    # Convert dates into months since 0 BC/AD (arbitrary, but doesn't
+    # matter)
+    #I'm not using the month.idx with Ivan's solution (remove)
+    fn2.tall$mnth.idx <- sapply(fn2.tall$date, function(x){
       12*as.integer(format(x, "%Y")) + (as.integer(format(x, "%m")) - 1)
     })
      
