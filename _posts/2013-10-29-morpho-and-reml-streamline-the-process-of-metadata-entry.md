@@ -4,7 +4,7 @@ layout: post
 title: morpho-and-reml-boilerplate-streamline-the-process-of-metadata-entry
 date: 2013-10-29
 categories:
-- data documentation
+- Data Documentation
 ---
 
 
