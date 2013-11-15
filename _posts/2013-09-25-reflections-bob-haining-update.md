@@ -254,7 +254,7 @@ This Tuesday at the <a href="http://gis-forum.github.io">GIS Forum</a> we were l
 <p>We started off the discussion with an assessment of the approach described in this post <a href="http://thebiobucket.blogspot.com.au/2012/03/classification-trees-allowing-for.html">Classification Trees and Spatial Autocorrelation</a>.
 </p>
 <p>
-I've been thinking more and more about decision trees/CART/random forest methods for selecting a subset of relevant variables (and interations) for use in GLM or GAM model construction.  In a perfect world I'd have data on the main predictor I wanted to model and enough data about all the relevant confounding or modifying variables as well to ensure I get a 'well behaved model'. But with all the data around and so many potentially plausible relationships one might choose to include we need a way to narrow down these to just include the most important confounders and interactions.  CART or some variation on it seems a good way to do this, but is prone to the potential problem of spatially correlated errors too.
+I've been thinking more and more about decision trees/CART/random forest methods for selecting a subset of relevant variables (and interations) for use in GLM or GAM model construction.  In a perfect world I'd have data on the main predictor I wanted to model and enough data about all the relevant other predictors (especially confounding or modifying variables) to ensure I get a 'well behaved model'. But with all the data around and so many potentially plausible relationships one might choose to include we need a way to narrow down these to just include the most important covariates, confounders and interactions.  CART or some variation on it seems a good way to do this, but is prone to the potential problem of spatially correlated errors too.
 </p>
 <p>
 The idea from that blog post is:
@@ -364,9 +364,11 @@ Where:
 <ul>
 <li>Phil agreed with Bob that the spatial error model is the best, spatial lag model is OK and spatially lagged covariates not so great.
 </li>
-<li>For spatial error model fitting he suggested looking at R packages spBayes and spTimer
+<li>For spatial error model fitting Phil suggested looking at R packages spBayes and spTimer.
 </li>
-<li>I asked that if spatial lag is OK and it seems easier to fit but how to know if it has done the trick?  if the SE on beta1 is bigger? or a significant p-value on the lagged Beta? 
+<li>I pointed out that I am mostly interested in "spatially structured time-series models" rather than spatial models at a single point in time.  By this I mean that we have several neighbouring areal units observed over a period of time.  In this framework the general methods of time series modelling are used to control for temporal autocorrelation.  However this makes the methods of spatial error and spatial lag models tricky because the spatial autocorrelation needs to be assessed at many points in time.
+</li>
+<li>I asked that if spatial lag is OK (and it seems easier to fit into the time-series model framework) how can I check to know if it has done the trick?  If this were purely a spatial model we could check for spatial autocorrelation in the residuals just as they described in the CART blog above, but here we have many maps we could make (one every time point), and our spatial autocorrelation measure would surely vary a lot over time.  SO would a simple way just be to asses the effect on the Standard Error on beta1 (our primary interest) and if it is bigger but still significant we can be reassured that our result isn't affected? Or perhaps we should assess the beta on the lagged variable, for instance is a significant p-value on the lagged Beta an indication that it is capturing the unmeasured spatial associations represented by the neighbourhood variable?  
 </li>
 <li>If it hadn't done the trick Nerida pointed out this might be because the Neighbourhoods are actually not appropriately represented by the first order neighbours and therefore more neighbours could be included, like moving out several concentric circles to wider and wider neighbourhoods
 </li>
