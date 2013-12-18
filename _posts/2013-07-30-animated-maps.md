@@ -11,7 +11,7 @@ categories:
 # Animated maps to allow exploration of alternate levels of 'jitter'
 In a [previous project](http://www.ncbi.nlm.nih.gov/pubmed/22672028) we published a map of point locations that had been 'jittered', ie adding random noise to the latitude and longitude.  We did this by testing out a few maps and deciding on one that we thought protected privacy adequately whilst not destroying the spatial pattern we wished to display (evocatively).
 
-![Figure 2_FINAL.jpg](jitter/Figure 2_FINAL.jpg)
+![Figure 2_FINAL.jpg](/jitter/Figure 2_FINAL.jpg)
 
 I always wondered about a way to interactively do this and I think the animation package might do the trick, with the ability to step thru levels of jittering with the pause, fwd and back buttons.
 
