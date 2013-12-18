@@ -10,6 +10,7 @@ title: Open Notebook
 * Incidence Rates, Standardisation and Adjustment
 * [Open Notebook Science - Theory and Practice](/categories/ons)
 * [OpenSoftware-RestrictedData](http://opensoftware-restricteddata.github.io)
+* [pres](http://opensoftware-restricteddata.github.io/presentations/NCCARF-2013/presentation-hanigan-final.pdf)
 * PhD thesis: Disentangling the Health Impacts of Environmental Change from Social Factors      
 *  Pumilio-Bushfm: Bioacoustics Server: [Notes](/pumilio-bushfm-index.html),  [Report](http://ivanhanigan.github.io/pumilio-bushfm)
 * [Scientific Workflow Software](/categories/workflow)
