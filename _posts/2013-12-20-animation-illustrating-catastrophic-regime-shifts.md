@@ -181,7 +181,7 @@ Which was based on
 
 
 <p>
-<img src="/images/catastrophe.png"  alt="/images/catastrophe.png" />
+<img src="file:///images/catastrophe.png"  alt="file:///images/catastrophe.png" />
 </p>
 
 
@@ -203,7 +203,7 @@ Which was based on
 
 
 <p>
-<img src="/images/TrendsAndTriggers-v2.png"  alt="/images/TrendsAndTriggers-v2.png" />
+<img src="file:///images/TrendsAndTriggers-v2.png"  alt="file:///images/TrendsAndTriggers-v2.png" />
 </p></div>
 
 </div>
@@ -260,7 +260,7 @@ dev.off()
 <h3 id="sec-4-1"><span class="section-number-3">4.1</span> figure</h3>
 <div class="outline-text-3" id="text-4-1">
 
-<p><img src="/images/animation.gif"  alt="/images/animation.gif" />
+<p><img src="file:///images/animation.gif"  alt="file:///images/animation.gif" />
 </p></div>
 
 </div>
