@@ -181,7 +181,7 @@ Which was based on
 
 
 <p>
-<img src="file:///images/catastrophe.png"  alt="file:///images/catastrophe.png" />
+<img src="/images/catastrophe.png"  alt="/images/catastrophe.png" />
 </p>
 
 
@@ -203,7 +203,7 @@ Which was based on
 
 
 <p>
-<img src="file:///images/TrendsAndTriggers-v2.png"  alt="file:///images/TrendsAndTriggers-v2.png" />
+<img src="/images/TrendsAndTriggers-v2.png"  alt="/images/TrendsAndTriggers-v2.png" />
 </p></div>
 
 </div>
@@ -233,7 +233,7 @@ zid <span style="color: #268bd2; font-weight: bold;">&lt;-</span> .1
 data_out <span style="color: #268bd2; font-weight: bold;">&lt;-</span> as.data.frame(data_out)
 write.csv(data_out, <span style="color: #2aa198;">"TrendsAndTriggers-v2.csv"</span>, row.names = F)
 
-png(<span style="color: #2aa198;">"images/TrendsAndTriggers-v2.png"</span>)
+png(<span style="color: #2aa198;">"/images/TrendsAndTriggers-v2.png"</span>)
 persp(x, 1:10, matrix(data_out$z, ncol = 10, nrow = length(x)), ylab= <span style="color: #2aa198;">""</span>,  xlab= <span style="color: #2aa198;">""</span>, zlab = <span style="color: #2aa198;">""</span>,  
       theta = 140, 
       phi = 42, 
@@ -260,7 +260,7 @@ dev.off()
 <h3 id="sec-4-1"><span class="section-number-3">4.1</span> figure</h3>
 <div class="outline-text-3" id="text-4-1">
 
-<p><img src="file:///images/animation.gif"  alt="file:///images/animation.gif" />
+<p><img src="/images/animation.gif"  alt="/images/animation.gif" />
 </p></div>
 
 </div>
