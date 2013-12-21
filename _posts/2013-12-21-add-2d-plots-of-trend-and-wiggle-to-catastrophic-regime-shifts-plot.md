@@ -9,11 +9,11 @@ categories:
 ---
 
 <head>
-<title>Catastrophic Regime Shifts Visualisation </title>
+<title>Catastrophic Regime Shifts Visualisation  </title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-<meta name="title" content="Catastrophic Regime Shifts Visualisation "/>
+<meta name="title" content="Catastrophic Regime Shifts Visualisation  "/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2013-12-21T01:01+1100"/>
+<meta name="generated" content="2013-12-21T11:39+1100"/>
 <meta name="author" content="Ivan Hanigan"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -121,7 +121,7 @@ for the JavaScript code in this tag.
 </div>
 
 <div id="content">
-<h1 class="title">Catastrophic Regime Shifts Visualisation </h1>
+<h1 class="title">Catastrophic Regime Shifts Visualisation  </h1>
 
 
 <hr/>
@@ -144,15 +144,27 @@ for the JavaScript code in this tag.
 <h2 id="sec-1"><span class="section-number-2">1</span> Try adding 2D plot of the trend overtime and the variation within basins of attraction</h2>
 <div class="outline-text-2" id="text-1">
 
-<p>Following on from the previous work I now want to calculate the 2D paths.
-</p>
+<ul>
+<li>Following on from the previous work I now want to calculate the 2D paths.
+</li>
+<li>This will then form the basis for a "walk through" animation 
+</li>
+<li>Either with recorded narration or annotations that appear at the right time to describe each transition
+</li>
+<li>This is most of what I want to include except I have not added the wiggly variations around the main trend line, that show the system varying within the basin of attraction
+</li>
+<li>I got advice that Blender3d was the best way to finish this off.  Any other suggestions?
+</li>
+</ul>
+
+
 </div>
 
 <div id="outline-container-1-1" class="outline-3">
 <h3 id="sec-1-1"><span class="section-number-3">1.1</span> figure</h3>
 <div class="outline-text-3" id="text-1-1">
 
-<p><img src="/images/TrendsAndTriggers-v2.1.png"  alt="/images/TrendsAndTriggers-v2.1.png" />
+<p><img src="/images/TrendsAndTriggers-v2.1.gif"  alt="/images/TrendsAndTriggers-v2.1.gif" />
 </p>
 
 </div>
@@ -186,19 +198,32 @@ xind <span style="color: #268bd2; font-weight: bold;">&lt;-</span> xindex[j]
 }
 <span style="color: #586e75;">#  </span><span style="color: #586e75;">x2d</span>
 
-png(<span style="color: #2aa198;">"/images/TrendsAndTriggers-v2.1.png"</span>)
-layout(matrix(c(1,2,1,3), 2, 2, byrow = <span style="color: #b58900;">TRUE</span>), widths=c(2,1), heights=c(1,2))
+<span style="color: #586e75;">#</span><span style="color: #586e75;">png("/images/TrendsAndTriggers-v2.1.gif")</span>
+setwd(<span style="color: #2aa198;">"images"</span>)
+saveGIF(
+{
+ani.options(interval = 0.2)  
+<span style="color: #859900; font-weight: bold;">for</span>(ith <span style="color: #859900; font-weight: bold;">in</span> 100:140){
+layout(matrix(c(1,2,1,3,1,4), 3, 2, byrow = <span style="color: #b58900;">TRUE</span>), widths=c(2,1), heights=c(2,2,2))
+<span style="color: #586e75;"># </span><span style="color: #586e75;">layout.show(4)</span>
 res <span style="color: #268bd2; font-weight: bold;">&lt;-</span>  persp(x, 1:10, matrix(data_out$z, ncol = 10, nrow = length(x)),
                ylab= <span style="color: #2aa198;">"y"</span>,  xlab= <span style="color: #2aa198;">"x"</span>, zlab = <span style="color: #2aa198;">"z"</span>,  
-               theta = 140, 
+               theta = ith, 
                phi = 42, ltheta = 120, shade = 0.75,
                expand = 0.5, col = <span style="color: #2aa198;">"lightgrey"</span>)
 lines (trans3d(x2d$x, x2d$y, x2d$z, pmat = res), col = <span style="color: #2aa198;">"red"</span>, lwd = 4)
-plot(x2d$x, x2d$z, type = <span style="color: #2aa198;">"l"</span>)
-plot(x2d$y, x2d$z, type = <span style="color: #2aa198;">"l"</span>)
-dev.off()
-</pre>
+plot(x2d$x, x2d$y, type = <span style="color: #2aa198;">"l"</span>, xlab=<span style="color: #2aa198;">"x"</span>, ylab=<span style="color: #2aa198;">"y"</span>)
+plot(x2d$x, x2d$z, type = <span style="color: #2aa198;">"l"</span>, xlab=<span style="color: #2aa198;">"x"</span>, ylab=<span style="color: #2aa198;">"z"</span>)
+plot(x2d$y, x2d$z, type = <span style="color: #2aa198;">"l"</span>, xlab=<span style="color: #2aa198;">"y"</span>, ylab=<span style="color: #2aa198;">"z"</span>)
+}
+}
 
+outdir = getwd(), movie.name = <span style="color: #2aa198;">"TrendsAndTriggers-v2.1.gif"</span>
+)
+setwd(<span style="color: #2aa198;">".."</span>)
+
+<span style="color: #586e75;">#  </span><span style="color: #586e75;">dev.off()</span>
+</pre>
 
 
 </div>
