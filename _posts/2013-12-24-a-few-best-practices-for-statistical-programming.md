@@ -1,7 +1,7 @@
 ---
-name:  a-few-best-practices-for-statistical-programming
+name: 2013-12-24-a-few-best-practices-for-statistical-programming
 layout: post
-title:  a-few-best-practices-for-statistical-programming
+title: a-few-best-practices-for-statistical-programming
 date: 2013-12-24
 categories:
 - research methods
@@ -15,7 +15,8 @@ categories:
 #### Best Practices for Statistical Programming
 
 - Write Out a Directed Acyclic Graph (DAG)
-- Vectorize Your Operations (profile your code and understand where it spends its time)
+- Vectorize Your Operations
+- Profile your code and understand where it spends its time
 - Generate Data and Fit Models
 - Correctness: always ensure that code infers  parameters of models given simulated data with known parameters.
 
@@ -23,4 +24,5 @@ categories:
 #### Additional suggestions
 
 - Unit Testing (use testthat)
-- Re-factoring - as above, but with extra attention to system.time()
+- Create modular code with discrete chunks
+- Write functions as much as possible, put these into a personal 'misc' package
