@@ -8,28 +8,28 @@ categories:
 - python
 ---
 
-I stumbled on these posts by "Data Scientist Training for Librarians":
+I stumbled on these posts about python and IPython Notebook by "Data Scientist Training for Librarians":
 
 - [http://altbibl.io/dst4l/exploratory-data-analysis-and-statistics-using-pandas-and-matplotlib/](http://altbibl.io/dst4l/exploratory-data-analysis-and-statistics-using-pandas-and-matplotlib/)
 - [http://altbibl.io/dst4l/pandas-munging-stats-and-visualization/](http://altbibl.io/dst4l/pandas-munging-stats-and-visualization/)
 
 
-I;ve been wanting to learn more python.  I don't think it'll be ready for statistical modelling for a while, but I a want to be ready when it is.
+I;ve been wanting to learn more python.  I don't think it'll be ready for statistical modelling for a while, but I a want to be ready when it is.  You can get my ipython notebook file for this here: [olive.ipynb](/data/olive.ipynb), but first run the following R code snippet to get the replication dataset 'olive.csv' into your home directory.
 
 #### R Code: get the olive oil dataset
     install.packages("pgmm")
     require(pgmm)
     data(olive)
-    write.csv(olive, "~/olive.csv", row.names = F)
-    olive <- read.csv("~/olive.csv")
     names(olive) <- tolower(names(olive))
     str(olive)
+    write.csv(olive, "olive.csv", row.names = F)
+    # actualy home might be easier for ipython to access
     write.csv(olive, "~/olive.csv", row.names = F)
 
 <p></p>
 
 ### OK now reproduce the example
-I quite like the histograms from the second example.
+I quite like the histograms from the second example.  Here is the raw code extracted from the ipynb
 
 #### Code:
     %pylab inline
@@ -79,6 +79,8 @@ I quite like the histograms from the second example.
 
 ### Conclusions
 
-I am not sure how to do the transparency but the rest of it would make more sense to me with R
-
-Will try to reproduce in R for head-to-head shoot out.
+- I am not sure how to do the transparency but the rest of it would make more sense to me with R
+- Will try to reproduce in R for head-to-head shoot out.
+- I also plan to look into the new [shinyAce browser based R editor](http://trestletechnology.net/2013/11/ace-code-editor-in-shiny-shinyace/) for similar work
+- I'm still really enjoying Emacs Orgmode for this kind of functionality though and thoroughly recommend [KJ Healy's starter kit](http://kieranhealy.org/resources/emacs-starter-kit.html) 
+- (I've installed and config thison Ubuntu, Windoze and Mac, but LaTeX and exporting R code can be tricky)
