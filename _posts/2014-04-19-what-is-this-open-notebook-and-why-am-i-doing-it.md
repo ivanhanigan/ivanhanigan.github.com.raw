@@ -1,8 +1,13 @@
 ---
-name: research
-layout: default
-title: Open Notebook
+name: what-is-this-open-notebook-and-why-am-i-doing-it
+layout: post
+title: What is this Open Notebook? And Why Am I Doing It?
+date: 2014-04-19
+categories:
+- overview
 ---
+
+I just revised the content of the ["About My Notebook"](/research.html) page and thought it was also relevant to post as an entry.
 
 #### Welcome to my Open Notebook
 This is the public face of my Open Notebook, in which I keep all the details of the data, code and documents related to my research.  This is an Open Notebook with [Selected Content - Delayed](http://onsclaims.wikispaces.com/) and aligns with the principles of the Open Notebook Science (ONS) movement.  The private side of my Open Notebook (the closed bit) is private either because it includes unpublished work that I wish to keep embargoed until after publication, or because it is all the gory, messy details of the day-to-day business of writing and rewriting code and prose to analyse data and make sense of the data I am analysing.  These elements of the notebook do not look like standalone journal entries and I store my personal archive either hosted by [GitHub](https://github.com/ivanhanigan/) for the public parts (thanks to their superior integration with Jekyll websites thanks to gh-pages for each repository) or [BitBucket](https://bitbucket.org/ivanhanigan/) for the private bits (thanks to bitbucket's free unlimited private repositories).
