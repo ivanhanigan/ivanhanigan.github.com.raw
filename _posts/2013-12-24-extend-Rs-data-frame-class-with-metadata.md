@@ -5,7 +5,6 @@ title: extend-Rs-data-frame-class-with-metadata
 date: 2013-12-24
 categories:
 - research methods
-- data documentation
 ---
 
 "reml now extends R's data.frame class by introducing the data.set class which includes additional metadata required by EML"

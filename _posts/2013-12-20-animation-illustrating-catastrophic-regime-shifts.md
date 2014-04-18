@@ -5,7 +5,6 @@ title: Animation Illustrating Catastrophic Regime Shifts
 date: 2013-12-20
 categories:
 - ecosocial tipping points
-- science
 ---
 
 <head>

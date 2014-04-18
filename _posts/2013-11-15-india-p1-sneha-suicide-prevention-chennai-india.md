@@ -4,8 +4,7 @@ layout: post
 date: 2013-11-15
 title:  India Part 1. Society for Natal Effects on Health (SNEHA) Suicide Prevention, Chennai India
 categories:
-- Drought and Suicide
-- India Overview
+- research methods
 ---
 
 #### Introduction

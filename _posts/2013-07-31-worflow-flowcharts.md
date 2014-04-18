@@ -4,8 +4,7 @@ layout: post
 title: Worflow flowcharts
 date: 2013-07-31
 categories: 
-- workflow
-- disentangle
+- research methods
 ---
 
 ## What is the issue  

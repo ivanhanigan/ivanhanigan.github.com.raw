@@ -4,7 +4,6 @@ layout: post
 title: Outlines. A way to organise, and to think
 date: 2012-03-11
 categories:
-- outlines
 - disentangle things
 ---
 

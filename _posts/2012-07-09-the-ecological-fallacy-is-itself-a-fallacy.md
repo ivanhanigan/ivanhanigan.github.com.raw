@@ -4,8 +4,7 @@ layout: post
 title: The Ecological Fallacy is Itself a Fallacy
 date: 2012-07-09
 categories: 
-- ecology
-- epidemiology
+- research methods
 ---
 
 The Ecological Fallacy

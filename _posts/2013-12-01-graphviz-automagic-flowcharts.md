@@ -5,7 +5,6 @@ title: graphviz-automagic-flowcharts
 date: 2013-12-01
 categories:
 - research methods 
-- workflow
 ---
 
 - Back in 2009 Joseph Guillaume worked with me on a complicated workflow

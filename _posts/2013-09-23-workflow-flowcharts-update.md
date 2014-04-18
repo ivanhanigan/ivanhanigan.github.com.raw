@@ -4,7 +4,7 @@ layout: post
 title: workflow-flowcharts-update
 date: 2013-09-23
 categories:
-- workflow
+- research methods
 ---
 
 # Workflow flowcharts - Update

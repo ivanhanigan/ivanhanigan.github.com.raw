@@ -4,10 +4,7 @@ layout: post
 title: Started a blog with Jekyll
 date: 2012-01-13
 categories: 
-- thoughts
-- blogger
-- wordpress
-- jekyll
+- overview
 ---
 
 I have decided to start my website and blog on Jekyll on the basis that Scott Chamberlain has posted this blog on his move from Blogger and Wordpress to Jekyll.

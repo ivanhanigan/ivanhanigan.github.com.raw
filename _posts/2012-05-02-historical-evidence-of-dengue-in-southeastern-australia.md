@@ -4,8 +4,7 @@ layout: post
 title: Historical GIS evidence of Dengue in the far southeast of Australia?
 date: 2012-05-02
 categories: 
-- GIS
-- opinion
+- spatial
 ---
 
 Dengue Fever (DF) and climate

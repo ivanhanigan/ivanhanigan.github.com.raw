@@ -4,7 +4,7 @@ layout: post
 title: if-disease-incidence-varies-with-age-control-for-it
 date: 2013-10-31
 categories:
-- rates theory
+- research methods
 ---
 
 - today I was in a meeting where the discussion turned to maps of crude incidence rates, age-standardised rates and regression models controlling for age

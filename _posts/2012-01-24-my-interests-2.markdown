@@ -5,18 +5,6 @@ title: My Interests
 date: 2012-01-24
 categories: 
 - overview
-- reproducibility
-- tools
-- R/Sweave 
-- make
-- packages
-- projectTemplate
-- versions
-- python
-- graphviz
-- kepler
-- RanalyticFlow
-- systems
 ---
 My research interests revolve around making my data analyses easier and more reproducible. I'd like it if every step in the methodical exploration of (or prediction from) data is easily documented, reproduced, transformed, integrated and fun ... (if such a thing is possible).   
 

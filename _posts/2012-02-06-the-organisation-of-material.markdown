@@ -4,8 +4,6 @@ layout: post
 title: The Organisation of Material
 date: 2012-02-06
 categories: 
-- thoughts
-- organising
 - overview
 ---
 

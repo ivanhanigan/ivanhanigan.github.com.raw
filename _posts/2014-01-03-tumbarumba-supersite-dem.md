@@ -4,8 +4,7 @@ layout: post
 title: tumbarumba-supersite-dem
 date: 2014-01-03
 categories:
-- supersite
-- tumba-lidar
+- research methods
 ---
 
 - The first dataset I downloaded from ASN for playing around with was the Tumba Lidar.

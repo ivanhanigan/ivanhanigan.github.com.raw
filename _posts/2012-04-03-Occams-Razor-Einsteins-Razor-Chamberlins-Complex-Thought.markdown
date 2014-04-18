@@ -4,7 +4,7 @@ layout: post
 title: Occam's Razor, Einstein's Razor and Chamberlin's Complex Thought
 date: 2012-04-03
 categories:
-- disentangle causality
+- disentangle things
 ---
 
 Introduction

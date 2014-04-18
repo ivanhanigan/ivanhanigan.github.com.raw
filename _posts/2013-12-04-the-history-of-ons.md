@@ -4,7 +4,7 @@ layout: post
 title: the-history-of-ons
 date: 2013-12-04
 categories:
-- ons
+- research methods
 ---
     
 - according to [http://en.wikipedia.org/wiki/Open_notebook_science](http://en.wikipedia.org/wiki/Open_notebook_science)

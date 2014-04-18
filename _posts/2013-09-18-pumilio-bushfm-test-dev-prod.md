@@ -3,8 +3,7 @@ name: pumilio-bushfm-test-dev-prod
 layout: post
 title: pumilio-bushfm-test-dev-prod
 categories:
-- pumilio-bushfm
-- open notebook
+- cloud building
 ---
 
 # Testing the pumilio-bushfm-test-dev-prod build process, in an Open Notebook

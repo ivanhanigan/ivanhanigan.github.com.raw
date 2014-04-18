@@ -4,7 +4,7 @@ layout: post
 title: using-orgmode-and-jekyll-for-open-notebook
 date: 2013-09-22
 categories:
-- orgmode
+- research methods
 ---
 
 # Using Orgmode and Jekyll for Open Notebook

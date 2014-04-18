@@ -4,7 +4,7 @@ layout: post
 title: nectar cloud pumilio build got bogged down
 date: 2013-11-18
 categories:
-- pumilio-bushfm
+- cloud building
 ---
 
 I've been trying to build pumilio bioacoustics server on a Aust Nectar Research Cloud VM, but hit various roadblocks.

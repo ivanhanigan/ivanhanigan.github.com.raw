@@ -3,8 +3,7 @@ name: 2013-04-17-suicide-and-drought-evidence-from-literature
 layout: default
 title: Suicide And Drought Evidence From Literature
 categories:
-- Drought
-- Suicide
+- extreme weather events
 ---
 
 

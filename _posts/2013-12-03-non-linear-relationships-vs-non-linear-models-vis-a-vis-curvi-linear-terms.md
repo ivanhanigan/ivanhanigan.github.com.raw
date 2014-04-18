@@ -5,7 +5,6 @@ title: non-linear-relationships-vs-non-linear-models-vis-a-vis-curvi-linear-term
 date: 2013-12-03
 categories:
 - research methods
-- statistical models
 ---
 
 

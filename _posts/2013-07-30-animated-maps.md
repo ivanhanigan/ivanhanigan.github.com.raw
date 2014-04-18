@@ -5,7 +5,6 @@ title: animated-maps
 date: 2013-07-30
 categories: 
 - spatial 
-- animation
 ---
 
 # Animated maps to allow exploration of alternate levels of 'jitter'

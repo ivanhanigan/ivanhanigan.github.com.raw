@@ -5,7 +5,6 @@ title: auto-download-bureau-meteorology-diurnal-data
 date: 2013-12-06
 categories:
 - extreme weather events
-- excess heat indices
 ---
 <head>
 <title>Excess Heat Indices </title>

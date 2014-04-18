@@ -5,7 +5,6 @@ title: animations-using-R
 date: 2013-12-18
 categories:
 - research methods
-- visualisation
 ---
 
 - following on from my previous posts about [animated maps](http://ivanhanigan.github.io/2013/07/animated-maps/), [spatio-temporal animations](http://ivanhanigan.github.io/2013/06/spatio-temporal-animations/) and animations [with buttons for go, stop and reverse](http://ivanhanigan.github.io/button/index.html)

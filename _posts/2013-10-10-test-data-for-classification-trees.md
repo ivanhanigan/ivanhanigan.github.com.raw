@@ -5,7 +5,6 @@ title: test-data-for-classification-trees
 date: 2013-10-10
 categories:
 - Data Documentation
-- Tree-Based Methods
 ---
 #### A fictitious sample dataset
 For discussion, I'll use a fictional example dataset that I'm using to work through some statistical theory related to Classification and Regression Trees (CART).

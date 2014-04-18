@@ -4,7 +4,7 @@ layout: post
 title: introduction-to-ons-theory-and-practice
 date: 2013-09-23
 categories:
-- ons
+- research methods
 ---
 
 The reasons why ONS is so appealing to me can be broken into two parts.  The first is about the problems which it solves, the second is about the benefits it might bring.

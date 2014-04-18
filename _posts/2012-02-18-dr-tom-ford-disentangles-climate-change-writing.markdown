@@ -4,8 +4,6 @@ layout: post
 title: Dr Tom Ford disentangles climate change writing
 date: 2012-02-18
 categories:
-- links
-- climate change
 - disentangle things
 ---
 

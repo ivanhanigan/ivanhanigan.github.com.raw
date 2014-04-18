@@ -4,7 +4,7 @@ layout: post
 title: counting-number-of-consecutive-months-in-drought
 date: 2013-10-29
 categories:
-- climatic and agricultural drought
+- extreme weather events
 ---
 
 I got this question today from a Drought researcher:

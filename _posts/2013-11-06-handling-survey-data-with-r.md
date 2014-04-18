@@ -5,7 +5,6 @@ title: handling-survey-data-with-r
 date: 2013-11-06
 categories:
 - Data Documentation
-- surveys
 ---
 
 R is generally very good for handling many different data types but

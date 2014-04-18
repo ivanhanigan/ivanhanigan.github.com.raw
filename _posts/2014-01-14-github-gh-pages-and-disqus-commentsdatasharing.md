@@ -4,7 +4,6 @@ layout: post
 title: Github, gh-pages and disqus comments 
 date: 2014-01-14
 categories:
-- datasharing
 - research methods
 ---
 

@@ -4,8 +4,7 @@ layout: post
 title: quantum-gis-visualisations
 date: 2013-10-31
 categories:
-- gisviz
-- concordance
+- spatial
 ---
 
 - This is a quick post on Quantum GIS for spatial data visualisation

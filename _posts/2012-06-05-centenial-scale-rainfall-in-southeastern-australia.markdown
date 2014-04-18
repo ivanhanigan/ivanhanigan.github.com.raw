@@ -4,7 +4,7 @@ layout: post
 title: Centennial Scale Rainfall in Southeastern Australia
 date: 2012-06-05
 categories: 
-- drought
+- extreme weather events
 ---
 
 Droughts are extreme rainfall events on centennial scale

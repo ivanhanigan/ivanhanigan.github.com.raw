@@ -5,7 +5,6 @@ title: librarians-and-python
 date: 2013-11-06
 categories:
 - Data Documentation
-- python
 ---
 
 I stumbled on these posts about python and IPython Notebook by "Data Scientist Training for Librarians":

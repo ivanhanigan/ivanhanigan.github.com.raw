@@ -4,8 +4,7 @@ layout: post
 title: Progress Report
 date: 2012-01-15
 categories: 
-- blogging
-- jekyll
+- overview
 ---
 
 I have had another crack at this conversion. No chance yet to tweak the colour scheme (I want green [EDIT this was a change to stylesheets/screen.css at #header and #footer background-color: #238B45;]). 

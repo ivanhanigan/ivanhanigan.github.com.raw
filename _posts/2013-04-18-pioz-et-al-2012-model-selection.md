@@ -3,9 +3,7 @@ name: pioz-et-al-2012-model-selection
 layout: post
 title: Pioz et al 2012 model selection
 categories:
-- Spatial Dependence
-- Modelling
-- Disentangle
+- spatial
 ---
 
 In the [GIS forum SPDEP study group](http://gis-forum.github.io/study.html) we've been discussing the Bluetongue paper [http://www.mendeley.com/research/why-did-bluetongue-spread-the-way-it-did](http://www.mendeley.com/research/why-did-bluetongue-spread-the-way-it-did-environmental-factors-influencing-the-velocity-of-blueton)

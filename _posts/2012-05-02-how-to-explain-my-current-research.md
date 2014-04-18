@@ -4,7 +4,7 @@ layout: post
 title: How to explain my current research interests?
 date: 2012-05-02
 categories: 
-- me
+- research methods
 ---
 
 I'm having trouble explaining my current research interests.

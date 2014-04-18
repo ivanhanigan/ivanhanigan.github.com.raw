@@ -5,7 +5,6 @@ title: add-2d-plots-of-trend-and-wiggle-to-catastrophic-regime-shifts-plot
 date: 2013-12-21
 categories:
 - ecosocial tipping points
-- science
 ---
 
 <head>
