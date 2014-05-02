@@ -84,11 +84,7 @@
                 <li><a href="/categories/{{category | first}}">{{category | first}} ({{category | last | size }})</a></li>
                 {% endfor %}
               </ul>
-            </div>
-          </div>
-          <div id="secondary-sidebar">
-            <div class="widget">
-              <h2 class="widget-title">Recent Posts</h2>
+              <h2 class="widget-title">Recent Entries</h2>
               <ul>
                 {% for post in site.posts limit:5 %}
                 <li>
@@ -96,8 +92,25 @@
                 </li>
                 {% endfor %}
               </ul>
+              <h2 class="widget-title">Entries grouped by Tags</h2>
+              <ul>
+                {% for tag in site.tags %}
+                <li><a href="/tag/{{tag | first}}">{{tag | first}} ({{tag | last | size }})</a></li>
+                {% endfor %}
               <div class="clear"></div>
+              </ul>
             </div>
+          </div>
+          <!-- <div id="secondary-sidebar"> -->
+          <!--   <div class="widget"> -->
+          <!--     <h2 class="widget-title">Tags</h2> -->
+          <!--     <ul> -->
+          <!--       {% for tag in site.tags %} -->
+          <!--       <li><a href="/tag/{{tag | first}}">{{tag | first}} ({{tag | last | size }})</a></li> -->
+          <!--       {% endfor %} -->
+          <!--     <div class="clear"></div> -->
+          <!--     </ul> -->
+          <!--   </div> -->
             <!--
             <div class="widget">
               <h2 class="widget-title">Archives</h2>

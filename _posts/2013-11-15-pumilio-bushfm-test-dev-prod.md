@@ -4,7 +4,7 @@ layout: post
 date: 2013-11-15
 title: pumilio-bushfm-test-dev-prod
 categories:
--research methods
+- cloud building
 ---
 
 # Testing the pumilio-bushfm-test-dev-prod build process, in an Open Notebook

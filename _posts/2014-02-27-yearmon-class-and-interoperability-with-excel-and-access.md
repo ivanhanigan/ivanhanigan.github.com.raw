@@ -5,6 +5,7 @@ title: yearmon-class-and-interoperability-with-excel-and-access
 date: 2014-02-27
 categories:
 - research methods
+- Data Documentation
 ---
 
 
