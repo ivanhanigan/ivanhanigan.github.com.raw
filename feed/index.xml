@@ -11,10 +11,10 @@ layout: nil
  <id>http://ivanhanigan.github.com/</id>
  <author>
    <name>ivanhanigan</name>
-   <email>mail@ivan.hanigan@gmail.com</email>
+   <email>ivan.hanigan@gmail.com</email>
  </author>
 
- {% for post in site.posts %}
+ {% for post in site.posts limit:10 %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://ivanhanigan.github.com{{ post.url }}"/>
