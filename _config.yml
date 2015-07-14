@@ -1,7 +1,19 @@
-name: Recology
-description: An exploration of using R for ecology, evolution, and open science.
-url: http://schamberlain.github.com
+name: disentangle
+description: Disentangle Things
+url: http://ivanhanigan.github.com
 paginate: 5
-pygments: true
+highlighter:      pygments
 markdown: rdiscount
 permalink: /:year/:month/:title/
+# Custom vars
+version:          0.2.0
+
+logos:
+  - site:     http://scholar.google.com/citations?user=cGN1P0wAAAAJ&hl=en
+    img:      images/GSIcon.jpg
+  - site:     http://orcid.org/0000-0002-6360-6793
+    img:      images/ORCID.png
+  - site:     http://github.com/ivanhanigan
+    img:      images/github.png
+  - site:     mailto:ivan.hanigan@gmail.com
+    img:      images/gmail.png

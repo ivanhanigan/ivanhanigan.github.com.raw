@@ -61,6 +61,18 @@
 
             </div>
           </div>
+<div class="sidebar">
+  <div class="logos">
+  {% if site.logos != null %}
+  <ul>
+    {% for logo in site.logos %}      
+      <!-- Add in logos here -->
+      <a href="{{ logo.site }}"><img src="{{ site.baseurl }}{{ logo.img }}" height=22px width=22px/></a>&nbsp;&nbsp;&nbsp;&nbsp; 
+    {% endfor %}
+  </ul>
+  {% endif %} 
+  </div>
+</div>
           <!--
           	<p>
               <a href="http://ropensci.org/">

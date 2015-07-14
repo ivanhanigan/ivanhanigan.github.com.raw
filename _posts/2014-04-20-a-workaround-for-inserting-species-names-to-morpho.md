@@ -5,6 +5,8 @@ title: A Workaround For Inserting Species Names To Morpho
 date: 2014-04-20
 categories:
 - Data Documentation
+tags:
+- morpho
 ---
 
 Morpho is a pretty minimal editor for EML really.  It gives you a set
