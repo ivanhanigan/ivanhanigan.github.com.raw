@@ -67,7 +67,7 @@
   <ul>
     {% for logo in site.logos %}      
       <!-- Add in logos here -->
-      <a href="{{ logo.site }}"><img src="{{ site.baseurl }}{{ logo.img }}" height=22px width=22px/></a>&nbsp;&nbsp;&nbsp;&nbsp; 
+      <a href="{{ logo.site }}"><img src="{{ site.baseurl }}/{{ logo.img }}" height=22px width=22px/></a>&nbsp;&nbsp;&nbsp;&nbsp; 
     {% endfor %}
   </ul>
   {% endif %} 
@@ -89,6 +89,14 @@
           
           <div id="primary-sidebar">
             <div class="widget">
+              <h2 class="widget-title">Recent Entries</h2>
+              <ul>
+                {% for post in site.posts limit:5 %}
+                <li>
+                  <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+              </ul>
               <h2 class="widget-title">Categories</h2>
               <ul>
 <!-- <li> -->
@@ -96,14 +104,6 @@
 <!-- </li> -->
                 {% for category in site.categories %}
                 <li><a href="/categories/{{category | first}}">{{category | first}} ({{category | last | size }})</a></li>
-                {% endfor %}
-              </ul>
-              <h2 class="widget-title">Recent Entries</h2>
-              <ul>
-                {% for post in site.posts limit:5 %}
-                <li>
-                  <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
-                </li>
                 {% endfor %}
               </ul>
               <h2 class="widget-title">Entries grouped by Tags</h2>

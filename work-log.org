@@ -6,22 +6,19 @@
 * Global TODO-list
 
 ** PhD
-*** 01_1 Planning
 
+*** 01_1 Planning
+***** TODO planning 0101 sync orgmode agenda with gantt database
 
 ***** TODO planning 01_1 Planning Finalise work log
 
-    SCHEDULED: <2015-09-30 17:00>
 
-
-***** TODO planning 0101 sync orgmode agenda with gantt database
-      SCHEDULED: <2015-09-21 Mon>
 *** 01 Milestones
 
 ***** TODO 01 Milestones Submittable version
 
     SCHEDULED: <2015-11-02 17:00>
-***** TODO 01 Milestones Intention to submit form
+***** DONE 01 Milestones Intention to submit form
 see /home/ivan_hanigan/Dropbox/projects/IvanPhD/admin/submission
 
 The web link’s below will provide you with all the necessary information you need to know in regard to submitting your thesis.
@@ -33,15 +30,36 @@ Approximately two months before a student expects to be ready to submit a thesis
 If you have any questions about this process you can contact the Examinations Office on 6125 2266 or email the address noted above.
     SCHEDULED: <2015-09-21 Mon 17:00>
 ***** TODO 01 Milestones Presentation
-NA
     SCHEDULED: <2015-11-19 17:00>
 
 *** 02 Thesis production
+
+***** TODO phd best figures
+***** TODO phd problems and then pipelines evolved
+- Lumley said computation stats not taken seriously
+- someone called comp sci scoundrels
+- biostatics journal introduced policy
+- nature and science have special editions
+- Sweave and Compendia invented
+- Long wrote book,  MHCP wrote protocol
+- White wrote PT, JR invented LCFD
+- Ishiyama had wrong numbers
+- psych and worming studies fail
+ 
+***** TODO phd KG, CB and SM comments into the doc into the latex
 ***** TODO phd 02 4.3 BiosmokeValidatedEvents BMC Research Notes manuscript
+***** TODO phd bio document the steps of a validation extension by someone else
+***** TODO phd work on presentation
+***** TODO phd add section on data inventory and EML
+***** TODO phd reference to of Peng leanpub reports book and Long's workflow
 
-    SCHEDULED: <2015-09-21 Mon 17:00>
-
-***** TODO phd read 
+key gaps:
+- Both don't adequately address metadata, data inventory, DMPlan, distribution
+- Peng didn't address organisation of material ie folders at all
+- round out the set of frameworks starts with Reich, then dat/ana/doc, then Long, then JMWhite, 
+- then Hollister begins to be too complex, out of scope - future work ? vignette?  
+***** TODO phd reference to noble folder structrure
+***** TODO phd references to methods of causal inference
 Remler, Dahlai K. and Van  Ryzin, Gregg G.(2014) Research Methods in Practice: Strategies for Description and Causation . 2nd edition.  Sage Publication, Inc 648pp
 
 Shadish, W. R., T. D. Cook, and D. T. Campbell. 2002. Experimental and Quasi-Experimental Designs for Generalized Causal Inference. Houghton Mifflin Company, New York. 623pp.
@@ -49,110 +67,122 @@ Shadish, W. R., T. D. Cook, and D. T. Campbell. 2002. Experimental and Quasi-Exp
 \cite{Hutto2012}
 
 Hutto, R. L. (2012). Distorting the Process of Scientific Inquiry. BioScience, 62(8), 707–708. doi:10.1525/bio.2012.62.8.3
-***** TODO phd read dockery HEI report and simulations method
-***** TODO phd send to RN
-***** TODO phd work on presentation
 
-***** TODO phd add section on data inventory and EML
-
-***** TODO phd publish drought Shapefile
-
-***** TODO phd add reference to de-worming and pshycology
-***** TODO phd add reference to RECORD
+***** TODO phd reference to wilson best practices
+***** TODO phd reference to  dockery HEI report and simulations method
+***** TODO phd reference to de-worming and pshycology
+***** TODO phd reference to RECORD
 RECORD (REporting of studies Conducted using Observational Routinely-collected Data) is an international collaboration which is  developing reporting guidelines for studies conducted using routinely-collected health data (such as health administrative data, electronic medical record data, primary care surveillance data, and disease registries). 
 
 
 For those interested, a reporting checklist and further information can be accessed at the RECORD website: http://record-statement.org/
-
-***** TODO phd bio document the steps of a validation extension by someone else
-
-
-***** TODO phd data inv for drought bom grids
-***** TODO phd data publication for drought bom grids
 ***** TODO phd describe the suicide and/or biomort pipeline in the introduction
-***** TODO phd gastro save to datainventory and project area
+***** DONE phd send to RN
 
 *** 03 Approvals
 
-***** TODO 03 Approvals Copyright approval - JAWMA Paper: Integration of historical records
+***** DONE phd 03 Approvals Copyright approval
+JAWMA Paper: Integration of historical records
 
-    SCHEDULED: <2015-09-21 Mon 17:00>
-***** TODO 03 Co-author approvals Send First Authors
 
-    SCHEDULED: <2015-09-21 Mon 17:00>
+***** DONE phd 03 Co-author approvals Send First Authors
 
-***** TODO phd get and combine all signatures
 
+
+***** DONE phd get and combine all signatures
+
+***** TODO phd send to remaining co-authors for sign
+
+
+***** TODO phd thank all co-authors for signing
 *** 04 Data Management
+***** TODO phd gastro save to datainventory and project area
+***** TODO phd drought  data inv for drought bom grids
+***** TODO phd drought 04 Data Management Drought Data on EWEDB
+***** TODO phd drought publish drought Shapefile
 
-***** TODO 04 Data Management Drought Data on EWEDB
-
-    SCHEDULED: <2015-09-21 Mon 17:00>
+***** TODO phd drought data publication for drought bom grids
+***** DONE phd sort out vally_rrv scripts and folders
+TODO which is home?
+~/Dropbox/projects/IvanPhD/Papers/Vally20091223_RossRiverRates/ 
+OR /home/ivan_hanigan/projects/vally_rrv
 
 *** 05 Post-doc opportunities
 ***** TODO phd heatwaves and health forecasting 
 ***** TODO 05 Post-doc opportunities Talk to Mark Howden re CSIRO
 
-    SCHEDULED: <2015-09-25 Fri 17:00>
 
+
+***** TODO phd postdoc at UC
 *** 06 Paid Work
 
 ***** TODO 06 Work opportunities Contact enago and ask for work 
 
-    SCHEDULED: <2015-09-21 Mon 17:00>
+
 
 *** 07 Supervision
-
-***** TODO 07 Supervision Colin Away
-
-    SCHEDULED: <2015-10-01 Thu 17:00>
+***** DONE 07 Supervision Colin back
+      SCHEDULED: <2015-10-07 Wed 17:00>
 
 *** 08 Reviewing
-***** TODO phd review the IJEPH paper 
-      SCHEDULED: <2015-09-22 Tue 09:00>
 ** UCRH
-***** TODO 0601 UCRH Files Files copy spatial ref
+
+***** TODO ucrh 0601 UCRH Files Files copy spatial ref
 Not hunter water, not dem, not rural, not natsem, just abs, anzlic metadata, aria, asgs, bom, postcode, air toxics, bikeways, landuse, seifa, topo250k, valuation,
-    SCHEDULED: <2015-09-23 Wed 17:00>
-***** TODO URGENT_ACTION 0602 UCRH Neighbourhood Neighbourhood meeting 3
-- organise to meet with Jane etc at CASANZ
+***** TODO ucrh 0601 UCRH Files files describe DMP and pipeline workflow
+Use examples of 
+- neighbourhood
+- neuro log
+- seef analysis plan 
+- sabrina work
+- noise
+- DMP, datainv, workplans, worklogs, workflows, distribution, group/individual
 
-NA
-
-***** TODO URGENT_ACTION 0605 UCRH General Neuro exposures, send to BJ
-just need to add shipping tifs
-NA
-***** TODO 0602 UCRH Neighbourhood Neighbourhood write doco about datasets and methods
+***** TODO ucrh 0601 UCRH Files files walkability footpaths dataset and etc osm fileshare to q drive
+***** TODO ucrh 0602 UCRH neighbourhood analysis plan and lit review for meeting
+***** TODO ucrh 0602 UCRH Neighbourhood data inventory 
+***** TODO ucrh 0602 UCRH Neighbourhood methods
+summarise Akita paper summary 
 This doco will be about the data sources we have identified during UCRH data inventory that can be applied. It will also describe the stats methods, Key task is to tighten the aims 
-    SCHEDULED: <2015-09-23 Wed 17:00>
-***** TODO 0602 UCRH Neighbourhood Neighbourhood write doco about datasets and methods
-TODO Akita paper summary almost done
-NA
-***** TODO 0602 UCRH Neighbourhood Neighbourhood setup BMElib
+and methods, discuss neighbourhood BME summary with MBor and LK and Gwil?
+- Gwil and LK first, explore language
+- then MB with a targeted specifics query
+***** TODO ucrh 0602 UCRH Neighbourhood methods summarise Akita paper summary 
+***** TODO ucrh 0602 UCRH Neighbourhood Neighbourhood meeting 3 URGENT_ACTION
+***** TODO ucrh 0602 UCRH Neighbourhood Neighbourhood setup BMElib
 BME install and test, got warnings, need to resolve
 NA
-***** TODO ucrh neighbourhood analysis plan and lit review for meeting
-***** TODO 0604 UCRH SEEF SEEF plan analysis
+***** TODO ucrh 0603 UCRH Noise email BHnz re Noise
+***** TODO ucrh 0603 UCRH Noise data_traffic_zenith Contract Re Sharing internally
+***** TODO ucrh 0603 UCRH Noise data_traffic_zenith Contract Re Sharing internally
+***** TODO ucrh 0603 UCRH Noise EJ notes from CC
+
+***** TODO ucrh 0603 UCRH Noise email BHnz re Noise
+***** TODO ucrh 0603 UCRH Noise Noise Meeting prep
+ucrh noise write the TODO from last meeting into the task list
+
+***** TODO ucrh 0604 UCRH SEEF get connected to SURE
+***** TODO ucrh 0604 UCRH SEEF SEEF plan analysis
+***** TODO ucrh 0604 UCRH SEEF SEEF plan analysis WalkAirHealth
 - Ivan to read Hankey 2012
 - Ivan do data inventory and derived data files
-NA
-***** TODO 0605 UCRH General Neuro exposures, generalise for all SEEF
-NA
-NA
-***** TODO 0605 UCRH General CASANZ conf
-      SCHEDULED: <2015-09-23 Wed>
-- Ivan to crash wed meetings
-- Thurs satellite conf
+- Folders
+
+***** TODO ucrh 0605 UCRH General Assignments Marking 
+[[/home/ivan_hanigan/Dropbox/projects/air_pollution_ucrh/Assignment_marking_201510/ucrh-marking-log.org]]
+***** TODO ucrh test assignment marking start to, mark one good and one poor, compare with geoff egs
+
+***** TODO ucrh 0605 UCRH General Contract management
+***** TODO ucrh 0605 UCRH General Neuro exposures, send to BJ URGENT_ACTION 
+just need to add shipping tifs
 NA
 
-***** TODO ucrh files walkability footpaths dataset and etc osm fileshare to q drive
-***** TODO ucrh describe neuro log, seef analysis plan 
-      SCHEDULED: <2015-09-23 Wed 17:00>
-
-***** TODO ucrh noise write the TODO from last meeting into the task list
+***** TODO ucrh 0605 UCRH General Project exposures, generalise Neuro for all SEEF
+***** TODO ucrh 0605 UCRH General Project exposures, Neuro add IDW metadata 
 ** Personal
 ***** TODO personal map nea
 ***** TODO personal financial spreadsheet
+***** TODO personal add CAR and marking to CV (check guru pres is on )
 
 * Daily log
 ** 2015 Sep
@@ -266,11 +296,302 @@ NA
 **** TODO-list 
 ***** DONE phd 02 Thesis production Prepare, sort out presentation, introduction, synthesis
     SCHEDULED: <2015-09-20 Sun 12:00>
-***** TODO personal run backup weekly and then transfer to seagate 2014-03-07, then transport to store at mums house
-***** TODO phd KG, CB and SM comments into the doc into the latex
-***** TODO phd best figures
-***** TODO phd clean up abstract
+***** DONE personal run backup weekly and then transfer to seagate 2014-03-07, then transport to store at mums house
 **** timesheet
 #+begin_src txt :tangle work-log.csv :eval no :padline no
 2015-09-20 Sun, phd, 50
+#+end_src
+*** 2015-09-21 Mon 
+**** TODO-list 
+
+***** DONE personal jog
+***** DONE personal aid Mum with sore leg
+***** DONE phd complete review of thesis summary, using hemmingway app
+***** DONE phd review the IJEPH paper 
+      SCHEDULED: <2015-09-21 Mon 17:00>
+
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-09-21 Mon, phd, 50
+#+end_src
+*** 2015-09-22 Tue 
+**** TODO-list 
+***** DONE personal jog
+***** DONE phd review the IJEPH paper 
+      SCHEDULED: <2015-09-22 Tue 11:40>
+***** DONE phd blog about charlie park and tags, then bash script
+***** DONE phd KG, CB and SM comments into the doc into the latex
+***** DONE phd collate questions for CB
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-09-22 Tue, phd, 100
+#+end_src
+*** 2015-09-23 Wed 
+**** TODO-list 
+***** DONE ucrh CASANZ conference, travel to melbourne
+***** DONE phd organise the diagrammer code for efficient listing of steps, in and out
+***** DONE ucrh 0602 UCRH Neighbourhood Neighbourhood write doco about datasets and methods
+      SCHEDULED: <2015-09-23 Wed 14:00>
+
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-09-23 Wed, ucrh, 100
+#+end_src
+*** 2015-09-24 Thu 
+**** TODO-list 
+***** DONE ucrh satellite workshop
+***** DONE ucrh timesheet
+      SCHEDULED: <2015-09-24 Thu 14:00>
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-09-24 Thu, ucrh, 100
+#+end_src
+*** 2015-09-25 Fri 
+**** TODO-list 
+***** DONE personal recover from travel
+
+***** DONE phd organisation of material, start blog posts about folders, 1/3
+***** DONE phd KG, CB and SM comments into the doc into the latex
+
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-09-25 Fri, phd, 50
+#+end_src
+*** 2015-09-26 Sat 
+**** TODO-list 
+***** DONE phd organisation of material blog post about R folders, 2/3
+***** DONE phd review summary and ensure presentation ordering is sensible
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-09-26 Sat, phd, 50
+#+end_src
+*** 2015-09-27 Sun 
+**** TODO-list 
+***** DONE phd review summary
+***** DONE personal jog
+***** DONE phd blog PT-WF
+***** DONE phd review summary
+***** DONE phd review presentation
+      SCHEDULED: <2015-09-27 Sun 22:00>
+***** DONE phd prep co-author approval emails (send them with signatures)
+***** DONE phd clean up abstract
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-09-27 Sun, phd, 50
+#+end_src
+*** 2015-09-28 Mon 
+**** TODO-list 
+***** DONE personal jog
+***** DONE phd blog entry reproducibility gives rigour
+***** DONE phd 03 Co-author approvals Send First Authors
+      SCHEDULED: <2015-09-28 Mon 14:00>
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-09-28 Mon, phd, 50
+#+end_src
+*** 2015-09-29 Tue 
+**** TODO-list 
+***** DONE personal jog
+
+***** DONE phd publish vally 2012 RRV code
+***** DONE phd send to co-authors for signatures
+      SCHEDULED: <2015-09-29 Tue 15:30>
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-09-29 Tue, phd, 50
+#+end_src
+*** 2015-09-30 Wed 
+**** TODO-list 
+***** DONE phd meet AW gardens
+      SCHEDULED: <2015-09-30 Wed 10:30>
+***** DONE ucrh phone conf with GM and SP RE SEEF plan analysis
+      SCHEDULED: <2015-09-30 Wed 14:00>
+***** DONE phd letters to co-authors, revise letter for RRv paper
+
+***** DONE ucrh receipts from conference to GM
+***** DONE phd worklog
+      SCHEDULED: <2015-09-30 Wed 16:20>
+***** DONE personal pick R 
+      SCHEDULED: <2015-09-30 Wed 16:30>
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-09-30 Wed, ucrh, 80
+#+end_src
+** 2015 Oct
+*** 2015-10-01 Thu 
+**** TODO-list 
+***** DONE personal jog
+***** DONE ucrh org meet with SaPt
+***** DONE phd add AW edits, send to CB
+***** DONE phd post on RR in epi
+***** DONE phd review IJERPH ask editor regarding data viz
+***** DONE ucrh workplan
+***** DONE phd backup datainv
+***** DONE personal respond to ASpcht, Hm and Rs email re post doc
+***** DONE phd meet CB
+      SCHEDULED: <2015-10-01 Thu 15:30>
+***** DONE ucrh add SURE to workplan (do gantt db stuff)
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-10-01 Thu, ucrh, 80
+#+end_src
+*** 2015-10-02 Fri 
+**** TODO-list 
+***** DONE personal jog
+***** DONE ucrh pull out MCHP guidlines (update URL on blog)
+***** DONE ucrh assignment marking preparation
+      SCHEDULED: <2015-10-02 Fri 11:00>
+- confirmation log in works
+***** DONE ucrh LK review, chat prep, ask Gwill about kriging
+
+***** DONE ucrh workplan meeting with GM
+      SCHEDULED: <2015-10-02 Fri 12:00>
+- show updated workplan
+- discuss marking, select question
+- discuss SURE access
+- discuss folder structure at Q drive level and sub-project levels
+***** DONE ucrh Neighbourhood methods, Mborg
+Email MB CC GM: remind him of meeting, then suggestion that I talk to Gwill and Lknib
+
+***** DONE UCRH Neighbourhood Neighbourhood meeting 3 doodle poll
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-10-02 Fri, ucrh, 100
+#+end_src
+*** 2015-10-03 Sat 
+**** TODO-list 
+***** DONE personal jog
+
+***** DONE phd diagrammer vis techniques blog post
+      SCHEDULED: <2015-10-03 Sat 11:45>
+***** DONE ucrh describe DMP and pipeline workflow
+      SCHEDULED: <2015-10-03 Sat 16:00>
+Use examples of 
+- neighbourhood
+- neuro log
+- seef analysis plan 
+- sabrina work
+- noise
+- DMP, datainv, workplans, worklogs, workflows, distribution, group/individual
+***** DONE phd review IJERPH resubmit
+      SCHEDULED: <2015-10-03 Sun>
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-10-03 Sat, ucrh, 50
+#+end_src
+*** 2015-10-04 Sun 
+**** TODO-list 
+***** DONE phd Filing systems, blog post and tentative tweet
+
+***** DONE 06 Work opportunity NCI
+      SCHEDULED: <2015-10-04 Sun 16:00>
+
+
+***** DONE ucrh DMP organisations
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-10-04 Sun, phd, 80
+#+end_src
+*** 2015-10-05 Mon 
+**** TODO-list 
+***** DONE phd starting to incorporate CB words to intro, and beef up crisis context
+***** DONE personal ride
+
+***** DONE phd dig out 5 caps refs, send to CB
+***** DONE ucrh file naming conventions, blog post
+***** DONE phd thank all co-authors who replied
+      SCHEDULED: <2015-10-05 Mon 16:00>
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-10-05 Mon, phd, 50
+#+end_src
+*** 2015-10-06 Tue 
+**** TODO-list 
+***** DONE phd send all remaining co-authors 
+      SCHEDULED: <2015-10-06 Tue 09:00>
+
+***** DONE personal jog
+      SCHEDULED: <2015-10-06 Tue 10:00>
+
+***** DONE phd co-authors mail
+***** DONE personal Serg Tax
+
+***** DONE phd back up datinv
+***** DONE 01 Milestones Intention to submit notification to student office
+      SCHEDULED: <2015-10-06 Tue 11:30>
+***** DONE phd organise meet with KtG
+      SCHEDULED: <2015-10-06 Tue 10:30>
+***** DONE phd follow up DBL datasharing issues, and Birds/regions paper
+***** DONE phd organise meet with McF
+***** DONE phd add some stuff about pipelines from recent mozilla exchanges
+***** DONE phd prep to send to RN
+      SCHEDULED: <2015-10-06 Tue 10:30>
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-10-06 Tue, phd, 50
+#+end_src
+*** 2015-10-07 Wed 
+**** TODO-list 
+***** DONE phd blog post re Noble's folder structure.
+***** DONE ucrh compile folders/files ideas for sabrina
+***** DONE phd 06 work opportunity at UC
+      SCHEDULED: <2015-10-07 Wed 11:00>
+***** DONE ucrh Assignments Marking - read the first couple full then abs and conc only all
+
+***** DONE phd copyright approvals
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-10-07 Wed, ucrh, 30
+2015-10-07 Wed, ucrh-assignments, 20
+2015-10-07 Wed, phd, 50
+#+end_src
+*** 2015-10-08 Thu 
+**** TODO-list 
+***** DONE phd prep and send to RN
+***** DONE ucrh SEEF org meet with SaPt
+      SCHEDULED: <2015-10-08 Thu 10:00>
+***** DONE ucrh URGENT ACTION planning, write up notes from friday meet with GM
+***** DONE ucrh workplan edits and DMP organisations
+      SCHEDULED: <2015-10-07 Wed 09:00>
+***** DONE ucrh URGENT_ACTION 0602 UCRH Neighbourhood Neighbourhood meeting 3
+***** DONE ucrh doodle poll - remember Mum drop off
+
+***** DONE ucrh timesheet 
+      SCHEDULED: <2015-10-08 Thu 16:00>
+
+***** DONE phd worklog post
+      SCHEDULED: <2015-10-08 Thu 16:50>
+
+***** DONE ucrh test assignment marking start to, mark one good and one poor, compare with geoff egs
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-10-08 Thu, ucrh, 70
+2015-10-08 Thu, ucrh-assignments, 30
+#+end_src
+*** 2015-10-09 Fri 
+**** TODO-list 
+***** DONE phd biblio clean
+      SCHEDULED: <2015-10-09 Fri 08:30>
+***** DONE ucrh test assignment marking start to, mark one good and one poor, compare with geoff egs
+      SCHEDULED: <2015-10-09 Fri 09:00>
+***** DONE ucrh 0605 UCRH General Assignments Marking  meeting
+      SCHEDULED: <2015-10-09 Fri 11:30>
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2015-10-09 Fri, ucrh, 30
+2015-10-09 Fri, ucrh-assignments, 70
+2015-10-09 Fri, phd, 20
 #+end_src
