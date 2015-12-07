@@ -5,6 +5,7 @@ title: long-term-climatology-contextual-data-for-ecological-research
 date: 2014-02-28
 categories:
 - extreme weather events
+- Drought
 ---
 
 - Studies of extreme weather events such as drought require long term climate data 
