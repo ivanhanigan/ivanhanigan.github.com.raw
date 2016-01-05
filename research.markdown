@@ -4,7 +4,14 @@ layout: default
 title: Open Notebook
 ---
 
-#### Welcome to my Open Notebook
+## About me
+I am a multidisciplinary data manager and analyst with over 15 years experience at seven Australian universities and the CSIRO, especially the Australian National University (ANU). I have primarily worked in environmental epidemiology. Alongside my experience in analysis of empirical data I have experience in scenario-based forecasting in climate change risk assessments.
+<p></p>
+The integration of gridded, point-source and area-based administrative data has become a speciality. I have experience in the integration of health, social and environmental data, in particular reconciling health and population data based on incompatible spatial units, and the creation of and linkage with environmental exposure maps.
+<p></p>
+I have been the lead author on four papers in international journals, and contributing author on numerous journal papers, reports and conference presentations. I am in the final stage of a multi-disciplinary PhD, on a part time basis, at the ANU.
+
+## About my Open Notebook
 This is the public face of my Open Notebook, in which I keep all the details of the data, code and documents related to my research.  This is an Open Notebook with [Selected Content - Delayed](http://onsclaims.wikispaces.com/) and aligns with the principles of the Open Notebook Science (ONS) movement.  The private side of my Open Notebook (the closed bit) is private either because it includes unpublished work that I wish to keep embargoed until after publication, or because it is all the gory, messy details of the day-to-day business of writing and rewriting code and prose to analyse data and make sense of the data I am analysing.  These elements of the notebook do not look like standalone journal entries and I store my personal archive either hosted by [GitHub](https://github.com/ivanhanigan/) for the public parts (thanks to their superior integration with Jekyll websites thanks to gh-pages for each repository) or [BitBucket](https://bitbucket.org/ivanhanigan/) for the private bits (thanks to bitbucket's free unlimited private repositories).
 
 #### Categories
