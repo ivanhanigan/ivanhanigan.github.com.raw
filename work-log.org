@@ -1753,3 +1753,13 @@ written up at swish-dmp / for including in data management procedures
 #+begin_src txt :tangle work-log.csv :eval no :padline no
 2016-02-03 Wed, ceraph, 50
 #+end_src
+*** 2016-02-04 Thu 
+**** TODO-list 
+***** DONE personal website rm linkdin
+  - site:      http://www.linkedin.com/profile/view?id=AAMAAA-0wtwBnL35hDkq1UdK6vesju0LRODIVk0&trk=hp-identity-name
+    img:      images/linkedin.png
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-02-04 Thu, ceraph, 50
+#+end_src
