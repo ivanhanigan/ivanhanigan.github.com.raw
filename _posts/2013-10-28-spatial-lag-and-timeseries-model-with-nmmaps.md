@@ -7,6 +7,12 @@ categories:
 - spatial dependence
 ---
 
+### UPDATE
+
+- I have renamed the repo.  See [/2016/05/spatial-lag-and-timeseries-model-with-nmmaps-UPDATE](/2016/05/spatial-lag-and-timeseries-model-with-nmmaps-UPDATE)
+
+### OLD POST
+
 - Today I chatted with Phil Kokic at CSIRO Mathematics, Informatics and Statistics about the way the spatially lagged neighbours variable absorbs any residual spatial correlation in the errors
 - We agreed that this is a pretty minimal attempt, not as good as a spatial error model but pretty easy to implement
 - I've hacked together some very very ugly code to construct the lagged variable

@@ -815,7 +815,7 @@ The server will host a PostGIS database with the extreme weather events availabl
 #+end_src
 *** 2015-11-06 Fri 
 **** TODO-list 
-***** TODO phd opensoft futures wet
+***** DONE phd opensoft futures wet
 **** timesheet
 #+begin_src txt :tangle work-log.csv :eval no :padline no
 2015-11-06 Fri, phd, 50
@@ -1893,15 +1893,1560 @@ ceraph 50
 **** TODO-list 
 ***** DONE ucrh MB areas
       SCHEDULED: <2016-02-23 Tue 10:30>
-***** TODO ceraph website stuff
+***** DONE ceraph website stuff
       SCHEDULED: <2016-02-23 Tue 12:00>
-***** TODO ceraph RWS recoding
-***** TODO ucrh combine all data for Sydney, head toward BME test
-***** TODO ucrh begin manuscript
-***** TODO ucrh gen Rmd with pics so far
-      SCHEDULED: <2016-02-16 Tue 11:30>
+***** DONE ceraph RWS recoding
+***** DONE ceraph check codebooks in R (jbryer),  I still prefer EML
 
+***** DONE sui_cc check more KF background, found the long running debate re recession and umemployment
 **** timesheet
 #+begin_src txt :tangle work-log.csv :eval no :padline no
 2016-02-23 Tue, ceraph, 50
+#+end_src
+*** 2016-02-24 Wed 
+**** TODO-list 
+***** DONE ceraph RWS recoding
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-02-24 Wed, ceraph, 50
+#+end_src
+*** 2016-02-25 Thu 
+**** TODO-list 
+***** DONE ceraph RWS cleaning IH, meet JS, recode piping logic etc
+***** DONE ucrh meet GM and FS re biomass smoke db pollution inputs
+
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-02-25 Thu, ceraph, 50
+#+end_src
+*** 2016-02-26 Fri 
+**** TODO-list 
+***** DONE ucrh email Gmo FJ re biosmoke db downstream collaborators
+***** DONE ucrh diagrammer visnetwork fix (fail)
+***** DONE ceraph swish-dmp LuSm edits into the main org
+      SCHEDULED: <2016-02-26 Fri 12:00>
+***** DONE ceraph heart disease, walkability and nutrition availability (database demo w Vi)
+***** DONE personal chat Cb
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-02-26 Fri, ceraph, 50
+#+end_src
+*** 2016-02-27 Sat 
+**** TODO-list 
+***** DONE personal gantt_todo svg
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-02-27 Sat, personal, 50
+#+end_src
+*** 2016-02-28 Sun 
+**** TODO-list 
+***** DONE ucrh swish-dmp as book/website
+***** DONE ucrh eml2 test (biomass first)
+***** DONE ucrh biomass db extract
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-02-28 Sun, urch, 50
+#+end_src
+*** 2016-02-29 Mon 
+**** TODO-list 
+***** DONE ceraph RWS recoding checks
+***** DONE ceraph RWS team meeting
+***** DONE biosmoke farhad contribution
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-02-29 Mon, ceraph, 50
+#+end_src
+** 2016 Mar
+*** 2016-03-01 Tue 
+**** TODO-list 
+***** DONE ceraph explore observatory ideas with Vlearn
+***** DONE biosmoke farhad contribution
+      SCHEDULED: <2016-03-01 Tue 11:00>
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-01 Tue, ceraph, 50
+#+end_src
+*** 2016-03-02 Wed 
+**** TODO-list 
+***** DONE ceraph hosp folder loc down
+***** DONE ceraph obs talk with Tco and Vi
+***** DONE ceraph RWS outcomes from meetings Monday - Wed
+- DONE send tree paper to group
+- DONE coding the occupations like ABS ACME
+- DONE check out data storage and version control via intersect
+***** DONE ceraph tee up useing RRv for ML course
+
+***** DONE ceraph meet tco and vi
+
+***** DONE ceraph call Hval and tee up data RRv
+***** DONE ceraph swish-dmp LuSm edits into the main org
+      SCHEDULED: <2016-02-27 Sat 11:45>
+
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-02 Wed, ceraph, 50
+#+end_src1
+*** 2016-03-04 Fri 
+**** TODO-list 
+***** DONE ceraph RWS coding
+***** DONE swish updates to R server and postGIS
+
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-04 Fri, ceraph, 50
+#+end_src
+*** 2016-03-05 Sat 
+**** TODO-list 
+***** DONE swish update gislibrary and touch up server doco on swish github
+***** DONE ucrh start manuscript, sync with the grant
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-05 Sat, ucrh, 50
+#+end_src
+*** 2016-03-06 Sun 
+**** TODO-list 
+***** DONE ucrh install matlab local on jadehawk (failed no space)
+      SCHEDULED: <2016-03-06 Sun 11:00>
+***** DONE ucrh install matlab local
+***** DONE ucrh install BME lib
+***** DONE personal upgrade django lappy to win10 (failed to download)
+***** DONE personal girls b'day party
+      SCHEDULED: <2016-03-06 Sun 14:00>
+***** DONE ceraph workplan for meeting tomorrow
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-06 Sun, ucrh, 50
+#+end_src
+*** 2016-03-07 Mon 
+**** TODO-list 
+***** DONE ceraph RWS readme to Dpee
+      SCHEDULED: <2016-03-07 Mon 09:30>
+***** DONE ceraph Data storage meeting with LSm/Yoh
+      SCHEDULED: <2016-03-07 Mon 10:00>
+***** DONE ceraph workplan and meeting with obs team
+      SCHEDULED: <2016-03-07 Mon 11:30>
+***** DONE ceraph RWS check out data storage and version control via intersect or aarnet
+look further at cloudstor
+
+***** DONE ceraph meet Yoh with further nectar chat 
+
+
+***** DONE biosmoke windoze web2py
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-07 Mon, ceraph, 50
+#+end_src
+*** 2016-03-08 Tue 
+**** TODO-list 
+***** DONE ceraph RWS coding protocol writeup 
+***** DONE ceraph RWS checking recoding, also DP
+***** DONE ceraph RWS , create bitbucket
+***** DONE ceraph RWS more EDA farmers espe DP
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-08 Tue, ceraph, 50
+#+end_src
+*** 2016-03-10 Thu 
+**** TODO-list 
+***** DONE ceraph RWS coding finishing stuff
+***** DONE ucrh meet Gm, Jh and Mr
+***** DONE ceraph Obs hospital data
+***** DONE ceraph CVD n-hoods bitbucket
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-10 Thu, ceraph, 50
+#+end_src
+
+
+*** 2016-03-11 Fri 
+**** TODO-list 
+***** DONE ceraph RWS do final report html
+***** DONE swish ANU gislibrary contact PN, Df
+***** DONE ceraph share Rmd with Ro
+***** DONE ceraph RWS cloudstor, shibbo error
+***** DONE ceraph planning HPC intro with Yo and LS
+***** DONE ceraph act ethics etc
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-11 Fri, ceraph, 50
+#+end_src
+*** 2016-03-14 Mon 
+**** TODO-list 
+***** DONE biosmoke faSa impute aphea2
+***** DONE personal tylo vet
+***** DONE personal mum phone
+***** DONE personal tidy study
+***** DONE EML do review of vignette
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-14 Mon, ucrh, 50
+#+end_src
+*** 2016-03-15 Tue 
+**** TODO-list 
+***** DONE ceraph RWS minor fix, upload cloudstor, share with JS
+***** DONE biosmoke faSa impute aphea2 read thru and notes
+***** DONE airpoll get WA data from NCEPH
+***** DONE ucrh aphea protocol with farhad
+***** DONE ucrh ceraph ethics for ACT health, inserted to datinv spec perms 
+***** DONE ucrh aphea protocol with farhad (re-run)
+***** DONE ceraph act ethics report
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-15 Tue, ceraph, 50
+#+end_src
+*** 2016-03-16 Wed 
+**** TODO-list 
+
+***** DONE swish comment on open data challenge
+***** DONE personal dog to vet 
+      SCHEDULED: <2016-03-16 Wed 11:20>
+***** DONE ceraph seminar
+      SCHEDULED: <2016-03-16 Wed 12:30>
+***** DONE personal planning gantt and storyboard
+      SCHEDULED: <2016-03-16 Wed 14:30>
+http://blogs.lse.ac.uk/impactofsocialsciences/2014/10/31/storyboarding-research-dunleavy/
+***** DONE ceraph RRv multi-level model and data set
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-16 Wed, ceraph, 50
+#+end_src
+
+*** 2016-03-17 Thu 
+**** TODO-list 
+***** DONE ceraph planning gantt
+***** DONE biosmoke and pollution notes about a way out of the quagmire to team
+***** DONE ceraph RWS notes re workshop for BY
+***** DONE biosmoke faSa contribution finalise, check with Gwil re web2py download
+***** DONE biosmoke faSa run updated aphea2 impute on sydney
+***** DONE ceraph planning gantt
+
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-17 Thu, ceraph, 50
+#+end_src
+*** 2016-03-18 Fri 
+**** TODO-list 
+***** DONE ucrh air poll ts hrly to Q drive
+***** DONE ucrh extract air poll ts and events to PnLLa
+***** DONE personal filing
+***** DONE ceraph RRv multi-level model and data set
+***** DONE ucrh JH re perth ap and LUR
+***** DONE ceraph planning project/dataset level
+***** DONE ceraph planning gantt
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-18 Fri, ceraph, 50
+#+end_src
+*** 2016-03-19 Sat 
+**** TODO-list 
+***** DONE ceraph planning
+***** DONE personal backups
+***** DONE biosmoke check branchs, make develop for local pgres and master for sqlite
+***** DONE biosmoke grab emails for issues list
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-19 Sat, ceraph, 50
+#+end_src
+*** 2016-03-20 Sun 
+**** TODO-list 
+***** DONE ucrh BMElib example
+***** DONE biosmoke fix install on linux
+***** DONE ceraph planning add things like deadlines
+***** DONE ucrh sydney inventory toward krige
+      SCHEDULED: <2016-03-20 Sun 12:00>
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-20 Sun, ucrh, 50
+#+end_src
+*** 2016-03-21 Mon 
+**** TODO-list 
+***** DONE ceraph prep for Observatory meet
+***** DONE ceraph Observatory meet
+***** DONE ceraph data inventory
+***** DONE ceraph some GIS on food locations with viL
+***** DONE ceraph ABS data, ERP on SA2
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-21 Mon, ceraph, 50
+#+end_src
+*** 2016-03-22 Tue 
+**** TODO-list 
+***** DONE ceraph data inventory
+***** DONE ceraph admin doco, sent to group
+***** DONE ceraph construct core model and walk/SEIFA/food
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-22 Tue, ceraph, 50
+#+end_src
+*** 2016-03-24 Thu 
+**** TODO-list 
+***** DONE ceraph abstract to ha
+***** DONE ceraph transcribe the notes from obs meeting (when is next?)
+***** DONE ceraph talk to RaDa as conferences
+Hi Rachel,
+A few things I'd like to ask your approval for.  
+
+In brief:
+1. For Can I go to Brisbane on a semi payed for trip for R tools and open science/ open data
+2. For about 1600 can I go to Adelaide for the IAG geographers conference and present the neighbourhood abstract
+3. For $0 (Geoff Morgan pays) can I go to Sydney for a day in April to meet him and Jal etc re air pollution
+4. For $0 (Geoff again) Centre Air pollution and health Research (CAR) symposium for one day in May.
+
+Full details below:
+
+1. R open science (Ropensci) unconference
+  + April 2016 21-22. Brisbane, Australia
+  + This is a two day 'hack-a-thon' where scientists and software
+    designers from academia, industry, government, and various open
+    source projects come together to collaborate on solutions to
+    shared problems in open science
+  + I proposed the topic of 'Creating high quality metadata while
+    using R to analyse data.  Proposal to use the EML metadata
+    standard and incorporate ingesting these into workflows'.
+  + Room x 2 (20th, 21st) = 278 (Meriton Serviced Apartments are just around the corner and $115 per night)
+  + Flights = 506
+ Virgin Australia from Canberra to Brisbane airfare $ 226.69
+ Virgin Australia from Brisbane to Canberra airfare $ 279.00
+
+
+FLIGHT 1
+Canberra
+Wednesday, 20 Apr 2016 5:25 PM
+Brisbane
+Wednesday, 20 Apr 2016 7:05 PM
+VA 1225
+Virgin Australia
+
+
+FLIGHT 2
+Brisbane
+Friday, 22 Apr 2016 6:30 PM
+Terminal D
+Sydney
+Friday, 22 Apr 2016 8:05 PM
+VA 982
+Virgin Australia
+ 
+FLIGHT 3
+Sydney
+Friday, 22 Apr 2016 8:35 PM
+Terminal 2
+Canberra
+Friday, 22 Apr 2016 9:35 PM
+VA 672
+Virgin Australia
+
+
+
+
+2. IAG (Geographers) conference cost = ~$1600
+  + 29th June-1st July  Adelaide.
+  + Full Registration - Non-Member = $595
+  + Room x 3 (28th-30th) = 417  ($139 per night. Mercure Grosvenor Hotel)
+  + Flights = 525
+ Virgin Australia from Canberra to Adelaide airfare $ 269.91
+ Qantas Airways from Adelaide to Canberra airfare $ 256.00
+
+
+3 Geoff Morgan offered to pay for me to go 
+  + Sydney April 6th
+  + Meeting with Geoff, Jal, Jane Heyworth (UWA) and Christine Cowie (Woolcock Inst)
+  + Topic is improved neighbourhood level air pollution estimates
+  + I also hope to meet Richard Broome (Sydney Health Observatory).
+  + No cost to CeRAPH, just time out of my week to talk about Sydney/Perth air pollution
+
+4. Centre Air pollution and health Research (CAR) symposium Geoff Morgan pays
+  + The symposium on the Thursday 5th of May
+  + Geoff Morgan has offered to pay for me to present the
+    neighbourhood air exposure work 
+  + No cost to CeRAPH, just time out of my week to talk about Sydney/Perth air pollution
+
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-24 Thu, ceraph, 50
+#+end_src
+*** 2016-03-29 Tue 
+**** TODO-list 
+***** DONE ucrh setup for kriging
+***** DONE ceraph abst for IAG
+***** DONE swish EML comment
+      SCHEDULED: <2016-03-29 Tue 06:45>
+***** DONE ceraph IAG abs to team
+***** DONE biosmoke Rmd link to Faha
+      SCHEDULED: <2016-03-29 Tue 09:45>
+***** DONE ucrh krig test and send to JoH
+      SCHEDULED: <2016-03-29 Tue 10:30>
+
+***** DONE ucrh flight selection to GoMo
+
+***** DONE ceraph CVD walk food latest draft to VILe
+***** DONE ceraph RWS get emails related to structure of reports
+***** DONE ceraph RWS timelines etc
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-29 Tue, ceraph, 50
+#+end_src
+*** 2016-03-30 Wed 
+**** TODO-list 
+***** DONE ucrh download WA data
+***** DONE ucrh ask for WA pass samps
+***** DONE ucrh send soft data to joho (rejig hard?)
+      SCHEDULED: <2016-03-30 Wed 11:00>
+***** DONE ceraph RWS reading farmers report
+      SCHEDULED: <2016-03-30 Wed 12:00>
+***** DONE ceraph ideas for RRR session with Ro
+- start with a) geeks and repetitive tasks and then b) horror stories?  or vice verca
+***** DONE ceraph talk to RaDa as conferences
+***** DONE ceraph general send Enago thingy to RaDa
+***** DONE ceraph RWS plan a meeting with team re repro research
+***** DONE ucrh ask LuKn about SatLUR Perth
+***** DONE ceraph RWS farmer report graphs
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-30 Wed, ceraph, 50
+#+end_src
+*** 2016-03-31 Thu 
+**** TODO-list 
+***** DONE ceraph RWS qld drought project, save RQS and email jk
+***** DONE swish github issue for ropensci unconf
+***** DONE swish start a XXL VM
+***** DONE swish BME on init hard/soft talk with grw and joho
+***** TODO ceraph RWS EWE report headings
+***** TODO ceraph sync downloads from foo to Q drive
+***** TODO ceraph ML workshop: request RRV from Mlind
+***** TODO ceraph RWS EWE paper ideas
+***** TODO ceraph RWS farmer report graphs
+***** TODO swish ANUlib Pne DC serve
+***** TODO ceraph talk to RaDa as performance
+- PDS/PEAS
+***** TODO ucrh workflow and protocol
+***** TODO ucrh abstract
+***** TODO ceraph RRv multi-level model and data set
+***** TODO ceraph read neighbourhoods and plos
+***** TODO ceraph RWS cloud storage plan migration
+***** TODO ceraph RWS update indexorg with R codes from scripts
+
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-03-31 Thu, ceraph, 50
+#+end_src
+** 2016 Apr
+*** 2016-04-01 Fri 
+**** TODO-list 
+***** DONE ceraph RWS coding meeting
+      SCHEDULED: <2016-04-01 Fri 10:00>
+***** DONE ceraph Obs DMP
+      SCHEDULED: <2016-04-01 Fri 13:00>
+***** DONE ucrh n'hoods soft data
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-04-01 Fri, ceraph, 50
+#+end_src
+*** 2016-04-02 Sat 
+**** TODO-list 
+***** DONE ucrh n'hoods soft data
+***** DONE ucrh n'hoods bme fit
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-04-02 Sat, ucrh, 50
+#+end_src
+*** 2016-04-03 Sun 
+**** TODO-list 
+***** DONE ucrh n'hoods perth prep 
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-04-03 Sun, ucrh, 50
+#+end_src
+*** 2016-04-05 Tue 
+**** TODO-list 
+***** DONE ucrh bme test 6 and pres
+      SCHEDULED: <2016-04-05 Tue 09:00>
+***** DONE ceraph Workflow book to library
+***** DONE ceraph ml vm secure
+      SCHEDULED: <2016-04-05 Tue>
+***** DONE ceraph RWS metadata
+      SCHEDULED: <2016-04-05 Tue 12:00>
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-04-05 Tue, ceraph, 50
+#+end_src
+*** 2016-04-07 Thu 
+**** TODO-list 
+***** DONE ceraph the importance of scale
+***** DONE ceraph RWS metadata
+
+***** DONE ceraph ml RRv email Mlin
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-04-07 Thu, ceraph, 50
+#+end_src
+*** 2016-04-13 Wed 
+**** TODO-list 
+***** DONE ceraph VM building with intersect Mon and Tue
+***** DONE ceraph RWS check the contingent questions (if yes then answer, otherwise don't)
+- first check that q77 makes reasonable sense
+- then see if there are similar versions from 2014
+
+***** DONE personal rake leaves at nans
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-04-13 Wed, ceraph, 50
+#+end_src
+ 
+*** 2016-04-14 Thu 
+**** TODO-list 
+***** DONE ceraph RWS piping farmAssist
+***** DONE ceraph RWS farm report
+***** DONE ucrh download shipping
+***** DONE ceraph sure training
+***** DONE ceraph RWS meet jacki
+      SCHEDULED: <2016-04-14 Thu 16:30>
+***** DONE biosmoke insert/modify events from fasa
+      SCHEDULED: <2016-04-14 Thu 16:00>
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-04-14 Thu, ceraph, 50
+#+end_src
+*** 2016-04-15 Fri 
+**** TODO-list 
+***** DONE ceraph RWS piping logics
+***** DONE ceraph RWS follow up on abares surveys for SuOg
+***** DONE biosmoke meeting with Fa, FaSa, GMO
+      SCHEDULED: <2016-04-15 Fri 11:00>
+***** DONE get_events_and_timeseries
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-04-15 Fri, ceraph, 50
+#+end_src
+
+*** 2016-04-17 Sun 
+**** TODO-list 
+***** DONE ucrh update swish-dmp git repository and schematic with sure savm
+***** DONE ceraph update swish-dmp/osf to include general data management plan
+***** DONE ucrh upload ctm to dat inv then Q
+***** DONE ucrh upload wa data eda 
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-04-17 Sun, ucrh, 50
+#+end_src
+*** 2016-04-18 Mon 
+**** TODO-list 
+***** DONE ceraph prep for obs meeting
+***** DONE ceraph obs meeting 
+      SCHEDULED: <2016-04-18 Mon 11:00>
+***** DONE ceraph RWS rules and subgroups
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-04-18 Mon, ceraph, 50
+#+end_src
+*** 2016-04-19 Tue 
+**** TODO-list 
+***** DONE ucrh ctm avs and desc
+***** DONE ucrh wa fwf and follow up passive
+***** DONE ceraph RWS subgroup checking
+***** DONE ucrh satlur wa
+***** DONE ceraph RWS notes re funding for dote extra survey
+***** DONE ceraph RWS draft structure
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-04-19 Tue, ceraph, 50
+#+end_src
+*** 2016-04-24 Sun 
+**** TODO-list 
+***** DONE personal filing
+***** DONE ucrh set up new sydney run
+***** DONE ucrh set up supporting information document with transect visualisation
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-04-24 Sun, ucrh, 50
+#+end_src
+*** 2016-04-28 Thu 
+**** TODO-list 
+***** DONE ceraph n'hoods doc
+***** DONE ceraph share pnas kids with YY
+***** DONE ceraph gregweight
+***** DONE ucrh contract sign
+***** DONE ceraph ToCo ML codes
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-04-28 Thu, ceraph, 50
+#+end_src
+*** 2016-04-29 Fri 
+**** TODO-list 
+***** DONE ucrh n'hood BME set up pres
+***** DONE ceraph RWS user guide
+
+
+
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-04-29 Fri, ceraph, 50
+#+end_src
+*** 2016-04-30 Sat 
+**** TODO-list 
+***** DONE personal planning
+***** DONE coesra IUCNEcosystemRiskAssessment bugs
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-04-30 Sat, personal, 50
+#+end_src
+** 2016 May
+*** 2016-05-01 Sun 
+**** TODO-list 
+***** DONE personal planning
+***** DONE coesra IUCNEcosystemRiskAssessment bugs
+***** DONE ucrh BME try adding proj4
+***** DONE ucrh BME try a diffent transect
+***** DONE ucrh BME build pipeline to automate key summary table
+***** DONE ucrh BME car symp presentation prep
+***** DONE ceraph get ToCo comments (check saved email)
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-01 Sun, ucrh, 50
+#+end_src
+*** 2016-05-03 Tue 
+**** TODO-list 
+***** DONE ceraph monday was mostly the meeting and then some work toward cvd-walk-food
+***** DONE biodiversity IUCN fixs
+***** DONE ucrh book hotel
+***** DONE ceraph work on cvd-walk-food
+***** DONE ceraph n'hood proof read
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-03 Tue, ceraph, 50
+#+end_src
+*** 2016-05-08 Sun 
+**** TODO-list 
+***** DONE personal planning gantt
+***** DONE ucrh reimbursements scan and send
+
+***** DONE ceraph ML workshop: prep
+- DONE investigate Kelvyn Jones (Bristol)
+- DONE get harvard tute, princeton tute
+- DONE install stata 
+- DONE fit simple REML model in stata and R
+- DONE check MCMC version
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-08 Sun, ceraph, 50
+#+end_src
+*** 2016-05-10 Tue 
+**** TODO-list 
+***** DONE ceraph reimbursement (fail)
+***** DONE ceraph ethics CVs
+***** DONE ceraph RWS stuff
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-10 Tue, ceraph, 50
+#+end_src
+*** 2016-05-12 Thu 
+**** TODO-list 
+***** DONE ceraph RWS survey work
+***** DONE swish-dmp think about incorporating review process into results/report iterating
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-12 Thu, ceraph, 50
+#+end_src
+*** 2016-05-17 Tue 
+**** TODO-list 
+***** DONE coesra IUCN migration to portal
+***** DONE ceraph RWS thinking thru sampling design etc
+***** DONE ceraph RWS planning calculations (plotCI)
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-17 Tue, ceraph, 50
+#+end_src
+*** 2016-05-18 Wed 
+**** TODO-list 
+***** DONE ceraph ML work with ToCo
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-18 Wed, ceraph, 50
+#+end_src
+*** 2016-05-19 Thu 
+**** TODO-list 
+***** DONE ucrh reimbursement fraedom crap
+***** DONE ceraph RWS drought graphs
+      SCHEDULED: <2016-05-19 Thu 10:00>
+***** DONE ucrh n'hoods/aptema meeting
+      SCHEDULED: <2016-05-19 Thu 10:30>
+***** DONE ceraph Ell and Gre pres
+      SCHEDULED: <2016-05-19 Thu 13:30>
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-19 Thu, ceraph, 50
+#+end_src
+*** 2016-05-20 Fri 
+**** TODO-list 
+***** DONE ceraph RWS drought graphs
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-20 Fri, ceraph, 50
+#+end_src
+*** 2016-05-21 Sat 
+**** TODO-list 
+***** DONE ucrh ABS_data
+***** DONE ucrh wa meshblocks
+***** DONE ceraph ML brambor to main spatiotemoral repo
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-21 Sat, ucrh, 50
+#+end_src
+*** 2016-05-22 Sun 
+**** TODO-list 
+***** DONE personal workplan, sort papers
+      SCHEDULED: <2016-05-22 Sun 09:00>
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-22 Sun, ucrh, 50
+#+end_src
+*** 2016-05-23 Mon 
+**** TODO-list 
+***** DONE ceraph RWS drought stuff
+***** DONE ceraph ML with ToCo
+***** DONE personal jury duty
+      SCHEDULED: <2016-05-22 Sun 13:00>
+***** DONE personal jury duty mail
+***** DONE ceraph RWS drought stuff
+***** DONE ceraph ML log on request, remind ACT Gov
+***** DONE ceraph ML student accounts
+***** DONE ucrh ABS data meshblocks
+      SCHEDULED: <2016-05-23 Mon 12:00>
+***** DONE ceraph ML RRv buffers etc
+      SCHEDULED: <2016-05-24 Tue 10:00>
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-23 Mon, ceraph, 50
+#+end_src
+*** 2016-05-24 Tue 
+**** TODO-list 
+***** DONE ceraph ML participatns
+see overview
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-24 Tue, ceraph, 50
+#+end_src
+*** 2016-05-25 Wed 
+**** TODO-list 
+***** DONE ml model workshop
+      SCHEDULED: <2016-05-25 Wed>
+***** DONE ceraph RWS drought graphs
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-25 Wed, ceraph, 50
+#+end_src
+*** 2016-05-27 Fri 
+**** TODO-list 
+***** DONE ceraph yoki pawsey
+
+***** DONE ceraph email J and R about jury duty and schedules
+***** DONE ceraph observatory email H, B with slides
+***** DONE ceraph observatory email H, B and R with hospital updates request
+***** DONE ceraph RWS methods
+***** DONE ceraph RWS drought ewe graphs
+***** DONE ceraph meals allowance etc
+***** DONE ceraph hotel from sydney
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-27 Fri, ceraph, 50
+#+end_src
+*** 2016-05-28 Sat 
+**** TODO-list 
+***** DONE ucrh n'hoods set up report (SI)
+***** DONE swish dmp review folders and doco
+***** TODO ceraph review general_data_management_plan
+/home/ivan_hanigan/projects_ceraph/ResearchData - working_ivan
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-05-28 Sat, ucrh, 50
+#+end_src
+** 2016 Jun
+*** 2016-06-03 Fri 
+**** TODO-list 
+***** DONE RWS workshop
+***** DONE swish awaptools travis CI etc
+  <a href="https://github.com/swish-climate-impact-assessment/awaptools">A package</a> for downloading Australian weather data 
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-03 Fri, ceraph, 50
+#+end_src
+*** 2016-06-05 Sun 
+**** TODO-list 
+***** DONE RWS surveytools function xtab_by_dimensions
+***** DONE ucrh APTEMA workspace looksee
+***** DONE ucrh plan ABS data to Q drive, SURE, etc
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-05 Sun, ucrh, 50
+#+end_src
+*** 2016-06-06 Mon
+**** TODO-list 
+***** DONE RWS drt ewe sections
+***** DONE personal meet colin
+***** DONE ML tools on swish server
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-06 Mon, ceraph, 50
+#+end_src
+*** 2016-06-07 Tue 
+**** TODO-list 
+***** DONE ucrh 0601 UCRH Files files planning deploy to SURE workspace
+***** DONE ucrh zip list
+
+***** DONE ceraph rosa
+      SCHEDULED: <2016-06-07 Tue 11:30>
+***** DONE ceraph network
+      SCHEDULED: <2016-06-07 Tue 12:30>
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-07 Tue, ceraph, 50
+#+end_src
+*** 2016-06-08 Wed 
+**** TODO-list 
+***** DONE ceraph RWS reports etc
+
+***** DONE ceraph RWS user guide sync JS edits
+
+***** DONE personal jury duty
+***** DONE personal alrob
+
+***** DONE ceraph leave stuff
+- jury duty
+- school hols
+***** TODO ceraph PDR planning
+please can you bring with you information for the years 2016/2015,
+2014, 2013 in terms of; 
+- research outputs,
+  + scival summary
+  + CV update
+- research income, 
+- HDR supervision, 
+- HDR completions. 
+
+In addition, please think about your plans for the rest of 2016
+e.g. 
+- grant applications,
+  + funding dashboard
+- submitted publications etc.
+  + papers dashboard
+***** DONE ceraph RWS waterways
+***** DONE biodiversity email about nature article points to whole team
+***** DONE ucrh access to Q drive
+***** DONE ucrh 0605 UCRH General Project exposures, generalise Neuro for all SEEF
+***** DONE ucrh assess size of env_general_7z and upload via cloudstor
+
+Air_Pollution_Monitoring_Stations_NSW/OEH_monitor_Sydney_PM25_1996_2014/ CTM_CSIRO/Shipping_TIFs_RB/ 	CTM_CSIRO/TAPM_2007_HD/ Project_Exposures/SEEF_exposures/ Study_Regions/greater_syd_metro_reg_2006/ Weighted_Road_Density/road_density_75M_raster/ Satellite_NO2_LUR/SatNO2_2006_2011/ 
+
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-08 Wed, ceraph, 50
+#+end_src
+*** 2016-06-09 Thu 
+**** TODO-list 
+***** DONE ceraph waterways
+***** DONE ucrh meeting
+- need to say 2007 in weighted road density
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-09 Thu, ceraph, 50
+#+end_src
+*** 2016-06-10 Fri 
+**** TODO-list 
+***** DONE ceraph waterways
+***** DONE ceraph RWS edits
+***** DONE ucrh n'hood pipeline
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-10 Fri, ceraph, 50
+#+end_src
+*** 2016-06-11 Sat 
+**** TODO-list 
+***** DONE ucrh n'hood pipeline
+***** DONE ucrh n'hood BME manuscript and SI
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-11 Sat, ucrh, 50
+#+end_src
+*** 2016-06-15 Wed 
+**** TODO-list 
+***** DONE RWS waterway coding
+***** DONE personal PDR/probation
+***** DONE ceraph RWS geocoding read
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-15 Wed, ceraph, 50
+#+end_src
+*** 2016-06-16 Thu 
+**** TODO-list 
+***** DONE n'hoods report edits
+***** DONE hutchinson drought Lu fix
+***** DONE ucrh tsheet
+***** DONE ucrh share aptema test with mro
+***** DONE RWS geocoding read
+***** DONE RWS waterways extra
+***** DONE ABS_data mblocks
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-16 Thu, ceraph, 50
+#+end_src
+*** 2016-06-20 Mon 
+**** TODO-list 
+***** DONE ceraph obs meet
+      SCHEDULED: <2016-06-20 Mon 12:30>
+***** DONE ceraph abs_data
+***** DONE ceraph patient transfers
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-20 Mon, ceraph, 50
+#+end_src
+*** 2016-06-21 Tue 
+**** TODO-list 
+***** DONE ceraph obs meeting notes circ
+***** DONE ceraph obs sharing refs, test with vince
+***** DONE swish intersect charges?  backup!
+***** DONE ceraph patient transfers and walkability refs
+***** DONE hutchinson ands
+***** DONE ucrh car symp presentations ok
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-21 Tue, ceraph, 50
+#+end_src
+*** 2016-06-22 Wed 
+**** TODO-list 
+***** DONE RWS convention centre
+***** DONE swish backups
+***** DONE ceraph software etc for MarDa
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-22 Wed, ceraph, 50
+#+end_src
+*** 2016-06-23 Thu 
+**** TODO-list 
+***** DONE swish backups
+***** DONE ceraph software for MarDa
+***** DONE ucrh bayesian para for the nhmrc
+***** DONE biodiversity image for paper
+***** DONE biodiversity para for paper
+Reviewer #2
+There are also no results of the validation of the Burns et al. (2014) analysis presented in the paper itself, so no way to evaluate the success or failure of this demonstration of the tool's capabilities. 
+...
+include more about the validation of the Burns et al. study, enough so that reviewers can evaluate the success of this demonstration,
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-23 Thu, ceraph, 50
+#+end_src
+*** 2016-06-24 Fri 
+**** TODO-list 
+***** DONE personal yoi
+***** DONE ceraph patient data
+      SCHEDULED: <2016-06-24 Fri 10:45>
+***** DONE ceraph RWS regions 1
+      SCHEDULED: <2016-06-24 Fri 11:30>
+***** DONE biodiversity revision
+***** DONE personal ray white
+      SCHEDULED: <2016-06-24 Fri 12:00>
+***** DONE ceraph leave request 1
+      SCHEDULED: <2016-06-24 Fri 13:00>
+***** DONE ceraph RWS regions 1
+***** DONE ceraph cabs
+***** DONE ceraph rstudio prep users for maintenancy
+***** DONE POA centroids to Hu
+***** DONE awaptools adspar
+***** DONE hutchinson ClimaticAndAgriculturalDrought prep (DRT-BOM-GRD points extracted from awap_grids)
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-24 Fri, ceraph, 50
+#+end_src
+*** 2016-06-25 Sat 
+**** TODO-list 
+***** DONE drt drought-bom-grids metadata
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-25 Sat, swish, 50
+#+end_src
+*** 2016-06-26 Sun 
+**** TODO-list 
+***** DONE swish backups laptop
+***** DONE swish backup datinv, restore on hacky
+***** DONE bom-grids backup from delphe to hacky
+***** DONE ceraph food to local
+***** DONE ceraph leave request 2
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-26 Sun, ceraph, 50
+#+end_src
+*** 2016-06-28 Tue 
+**** TODO-list 
+***** DONE ceraph run through code as is with LCFD
+***** DONE cvd walk food zones
+1) adm 1 per month DONE
+2) same model DONE
+2.1) DONE Food swamp (FF/total @ MB | 1, 2, and 4 km) then PWAV at SA2 then (2) and (5)
+3) DONE stratify 
+   - walk clust ahs
+   - bus clust
+   - town cent
+   - all
+4) DONE (2) with varying intercepts/slopes
+5) AIC table
+6) spatial lag model
+
+***** DONE IAG presentation
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-28 Tue, ceraph, 50
+#+end_src
+*** 2016-06-30 Thu 
+**** TODO-list 
+***** DONE swish backup nectar, terminate swish3
+***** DONE IAG
+***** DONE IAG prep send pres to co
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-06-30 Thu, ceraph, 50
+#+end_src
+
+*** 2016-07-01 Fri 
+**** TODO-list 
+***** TODO drt drought-awap-grids processing
+***** TODO RWS DMP
+***** TODO IAG HSG papers
+Atkinson, S., Woods, A., Evans, B, & Kearns, R. (2015) ‘The medical’ and ‘health’ in a critical medical humanities. Jour-
+nal of Medical Humanities. 36 (1) 71-81. http://www.ncbi.nlm.nih.gov/pubmed/25502919
+
+- Badland H, Mavoa S, Livingston M, David S, Giles-Corti B. (In press). Testing spatial measures of alcohol outlet density
+
+with self-rated health in the Australian context: Implications for policy and practice. Drug and Alcohol Review. http://
+
+www.ncbi.nlm.nih.gov/pubmed/26424454
+
+- Barr, A., Bentley, R., Simpson, J.A., Scheurer, J., Owen, N., Dunstan, D., Thornton, L.E., Krnjacki, L., Kavanagh, A.M., (In
+
+press) Associations of public transport accessibility with walking, obesity, metabolic syndrome and diabetes. Journal of
+
+Transport and Health. http://www.sciencedirect.com/science/article/pii/S2214140516000086
+
+- Boyle, A., Wiles, J.L., & Kearns, R.A. (2015). Rethinking ageing in place: the ‘people’ and ‘place’ nexus. Progress in Ge-
+ography. 34 (12): 1495-1511. http://www.progressingeography.com/EN/abstract/abstract37160.shtml
+
+- Carroll, P., Witten, K., Kearns, R. And Donovan, P. (2015) Kids in the City: children’s use and experiences of urban
+
+neighbourhoods in Auckland, New Zealand. Journal of Urban Design. 20 (4) 417-436. http://www.tandfonline.com/
+
+doi/full/10.1080/13574809.2015.1044504
+
+- Christian, H., Zubrick, S.R., Sarah, F., Giles-Corti, B., Bull, F., Wood, L., Knuiman, M., Brinkman, S., Houghton, S., and
+
+Boruff, B. (2015). The influence of the neighborhood physical environment on early child health and development: A
+
+review and call for research. Health & Place. 33:25-36. http://www.ncbi.nlm.nih.gov/pubmed/25744220
+
+- Coleman, T.M. & Kearns, R.A. (2015) The role of blue spaces in experiencing place, aging and wellbeing: insights from
+
+Waiheke Island, New Zealand. Health & Place. 35:206-217. http://www.sciencedirect.com/science/article/pii/
+
+S1353829214001464
+
+- Corburn, J. (2015). City planning as preventive medicine. Preventive Medicine, 77. 48-51. http://
+
+www.ncbi.nlm.nih.gov/pubmed/25937591
+
+- Daker M, Pieters J, and Coffee N T (In press), “Validating and measuring public open space is not a walk in the park”
+
+Australian Planner http://www.tandfonline.com/doi/full/10.1080/07293682.2016.1139605
+
+- Freeman, C. & Kearns R.A. (2015) Childhoods under canvas: Campgrounds as spaces of resistance to protective par-
+enting. Childhood. 22(1), 101–120. http://chd.sagepub.com/content/22/1/101.abstract
+
+- Glanz, K., Handy, S. L., Henderson, K. E., Slater, S. J., Davis, E. L. & Powell, L. M. (2016) Built environment assessment:
+
+Multidisciplinary perspectives. SSM - Population Health, 2, 24-31. http://www.sciencedirect.com/science/article/pii/
+
+S2352827316000069
+
+- Jokela, M. (2015) Does neighbourhood deprivation cause poor health? Analysis of movers in a prospective cohort
+
+study. Journal of Epidemiology & Community Health. 69:899-904. http://jech.bmj.com/content/69/9/899.short?rss=1
+
+- DONE King, T.L., Bentley, R.J., Thornton, L.E., Kavanagh, A.M. (2016) Using kernel density estimation to understand the influ-
+ence of neighbourhood destinations on BMI. BMJ Open. 6: e008878. http://bmjopen.bmj.com/content/6/2/
+
+e008878.full
+
+- DONE Lamb, K.E., Thornton, L.E., Cerin, E., Ball, K. (2015) Statistical approaches used to assess the equity of access to food
+
+outlets: a systematic review. AIMS Public Health. 2(3): 358-401. http://www.aimspress.com/article/10.3934/
+
+publichealth.2015.3.358
+
+- Markham, F., & Young, M. (2016). Commentary on Dowling et al. (2016): Is it time to stop conducting problem gam-
+bling prevalence studies? Addiction, 111(3), 436–437. http://onlinelibrary.wiley.com/doi/10.1111/add.13216/abstract
+
+- Markham, F., Young, M., & Doran, B. (2016). The relationship between player losses and gambling-related harm: evi-
+dence from nationally representative cross-sectional surveys in four countries. Addiction, 111(2), 320–330. http://
+
+www.ncbi.nlm.nih.gov/pubmed/26567515
+
+- Moran, M.R., Plaut, P., Epel, O.B., (In press) Do children walk where they bike? Exploring built environment correlates
+
+of children's walking and bicycling. Journal of Transport and Land Use. https://www.jtlu.org/index.php/jtlu/article/
+
+view/556
+
+- Neuwelt, P., Kearns, R.A. & Browne, A. (2015) The place of receptionists in access to primary care: Challenges in the
+
+space between community and consultation. Social Science & Medicine. 133, 287–295. http://www.ncbi.nlm.nih.gov/
+
+pubmed/25455478
+
+- Oliver, M., Mavoa, S., Badland, H., Parker, K., Donovan, P., Kearns, R., Lin, E-Y, & Witten, K. (2015) Associations be-
+tween the neighbourhood built environment and out-of-school physical activity and active travel: An examination from
+
+the Kids in the City study. Health and Place. 36, 57–64. http://www.sciencedirect.com/science/article/pii/
+
+S1353829215001240
+
+- Oliver, M., Witten, K, Blakely, T., Parker, K., Badland, H., Schofield, G. Ivory, V, Pearce,J., Mavoa, S, Hinckson, E.,
+
+Sweetsur, P. & Kearns, R.A. (2015) Neighbourhood built environment associations with body size in adults: Mediating
+
+effects of activity and sedentariness in a cross-sectional study of New Zealand adults. BMC Public Health. 15:956.
+
+http://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-015-2292-2
+
+- Owen, G., Harris, R., Jones, K. (In press). Under examination: Multilevel models, geography and health research. Pro-
+gress in Human Geography. http://phg.sagepub.com/content/early/2015/04/21/0309132515580814.abstract
+
+- Sun, Q., J. Xia, et al. (In press). Assessing Drivers’ Visual-motor Coordination Using Eye Tracking, GNSS and GIS: a Spa-
+tial Turn in Driving Psychology. Journal of Spatial Science.
+
+- Thornton, L.E., Lamb, K.E., Ball, K. (2016) Fast food restaurant locations according to socioeconomic disadvantage, ur-
+ban-regional locality, and schools within Victoria, Australia. Social Science & Medicine – Population Health. 2: 1-9.
+
+http://www.sciencedirect.com/science/article/pii/S2352827315000142
+
+- Trapp, G.S.A., Hickling, S., Christian, H.E., Bull, F., Timperio, A.F., Boruff, B., Shrestha, D., and Giles-Corti, B. (2015) Indi-
+vidual, Social, and Environmental Correlates of Healthy and Unhealthy Eating. Health Education & Behavior. 42(6):759-
+
+68. http://www.ncbi.nlm.nih.gov/pubmed/25842383
+
+- Witten, K., Kearns, R. & Carroll, P. (2015) Urban inclusion as wellbeing: exploring children's accounts of confronting
+
+diversity on inner city streets. Social Science & Medicine. 133, 349–357. http://www.ncbi.nlm.nih.gov/
+
+pubmed/25618307
+***** TODO drt climateandagricultural drought manuscript
+- this links the drought-awap-grids to the nswdpi_drought
+
+***** TODO drt RWS locality/drought
+***** TODO drt hutchinson bagdad
+
+***** TODO ceraph upgrade swish server, migrate ML stuff to new ubuntu
+
+
+***** TODO ceraph obs send pres to team
+***** TODO ceraph obs send manu to soMa, Vile, ToCo with SI
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-01 Fri, ceraph, 50
+#+end_src
+
+** 2016 Jul
+*** 2016-07-06 Wed 
+**** TODO-list 
+***** DONE wa pollution
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-06 Wed, ucrh, 50
+#+end_src
+*** 2016-07-13 Wed 
+**** TODO-list 
+***** DONE ucrh wa air pollution
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-13 Wed, ucrh, 50
+#+end_src
+*** 2016-07-16 Sat 
+**** TODO-list 
+
+***** DONE ucrh ap wa do av and max processing
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-16 Sat, ucrh, 50
+#+end_src
+*** 2016-07-17 Sun 
+**** TODO-list 
+***** DONE biosmoke get locations data from nceph to local
+***** DONE biosmoke find metadata, esp units
+***** DONE ucrh ap wa do av and max processing
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-17 Sun, ucrh, 50
+#+end_src
+*** 2016-07-18 Mon 
+**** TODO-list 
+***** DONE ceraph obs team meeting
+***** DONE ceraph email to Rslnd
+***** DONE ceraph email to Hi
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-18 Mon, ceraph, 50
+#+end_src
+*** 2016-07-19 Tue 
+**** TODO-list 
+***** DONE obs check gnaf
+***** DONE obs meet rld@actgov re geocoding 
+      SCHEDULED: <2016-07-19 Tue 10:00>
+***** DONE ceraph AWAP access
+***** DONE ucrh sure seef exposures
+***** DONE ucrh aptema with MaRo
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-19 Tue, ceraph, 50
+#+end_src
+*** 2016-07-20 Wed 
+**** TODO-list 
+***** DONE ceraph meet toco
+***** DONE ceraph AWAP access
+***** DONE ceraph RWS meeting
+      SCHEDULED: <2016-07-20 Wed 12:45>
+
+***** DONE ucrh aptema meet gemo, etc
+      SCHEDULED: <2016-07-20 Wed 15:00>
+
+***** DONE ucrh car postdoc
+      SCHEDULED: <2016-07-20 Wed 16:00>
+***** DONE ucrh seef exposures
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-20 Wed, ceraph, 50
+#+end_src
+*** 2016-07-21 Thu 
+**** TODO-list 
+***** DONE ceraph planning out the dashboard and todolist (gantt?)
+***** DONE ceraph ad hoc email crap
+      SCHEDULED: <2016-07-21 Thu 10:30>
+- DONE NCI awaptools email
+- DONE writing workshop
+- DONE workplace assessment
+- DONE ask vile to alert soma to geocodes issue
+- DONE general archiving
+***** DONE ceraph talk vile about alert to soma re geocoding
+***** DONE ceraph talk with nenger 
+      SCHEDULED: <2016-07-21 Thu 13:30> 
+***** DONE ceraph IAG email, signup, suggest lukn
+      SCHEDULED: <2016-07-21 Thu 11:00>
+***** DONE personal change for rchdv
+***** DONE ceraph RWS emails to Jc
+- workshop notes
+- gnaf
+- user guide
+***** DONE personal grrls swim
+      SCHEDULED: <2016-07-21 Thu 15:00>
+***** DONE ucrh wa polls
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-21 Thu, ceraph, 50
+#+end_src
+*** 2016-07-22 Fri 
+**** TODO-list 
+
+***** DONE ceraph obs data sharing linkages map
+
+***** DONE ucrh meet lki
+
+***** DONE ceraph obs data request
+***** DONE ucrh wa polls 
+
+***** DONE ceraph notes from rlnd meeting re geocoding
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-22 Fri, ceraph, 50
+#+end_src
+*** 2016-07-23 Sat 
+**** TODO-list 
+***** DONE ucrh wa polls processing
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-23 Sat, ucrh, 50
+#+end_src
+*** 2016-07-24 Sun 
+**** TODO-list 
+***** DONE personal planning
+***** DONE ceraph n'hoods report proof
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-24 Sun, ucrh, 50
+#+end_src
+*** 2016-07-25 Mon 
+**** TODO-list 
+***** DONE ceraph n'hoods report proof
+***** DONE ucrh wa polls qc against other DB
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-25 Mon, ceraph, 50
+#+end_src
+*** 2016-07-26 Tue 
+**** TODO-list 
+***** DONE ceraph call rosli re request 1
+***** DONE personal call to organise stuff
+***** DONE ceraph awap grids
+***** DONE wa pollution to jahey
+***** DONE ceraph gis forum
+      SCHEDULED: <2016-07-26 Tue 13:00>
+***** DONE personal confirm with MarRoo re this arvo
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-26 Tue, ceraph, 50
+#+end_src
+*** 2016-07-27 Wed 
+**** TODO-list 
+***** DONE obs doodle mods
+***** DONE obs rosl data requests
+***** DONE ucrh bris flights
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-27 Wed, ceraph, 50
+#+end_src
+*** 2016-07-30 Sat 
+**** TODO-list 
+***** DONE RWS drought effects data processing
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-30 Sat, ceraph, 50
+#+end_src
+*** 2016-07-31 Sun 
+**** TODO-list 
+***** DONE datinv backups
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-07-31 Sun, ceraph, 50
+#+end_src
+** 2016 Aug
+*** 2016-08-02 Tue 
+**** TODO-list 
+***** DONE RWS writing the drought report
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-08-02 Tue, ceraph, 50
+#+end_src
+*** 2016-08-07 Sun 
+**** TODO-list 
+***** DONE swish coesra sever
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-08-07 Sun, ucrh, 50
+#+end_src
+*** 2016-08-08 Mon 
+**** TODO-list 
+***** DONE swish server
+***** DONE ceraph n;hoods report
+***** DONE RWS drought
+Drought impacts on personal life or community (NB includes all who say drought + 3 farmer only)
+
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-08-08 Mon, ceraph, 50
+#+end_src
+*** 2016-08-09 Tue 
+**** TODO-list 
+***** DONE 2016-08-09 Tue neighbourhoods report etc next steps
+- 1 pager and info graphic
+  + Ivan and Vince to summarise circulate the key messages
+  + Tom graphics is issue, we don't want to use coco
+  + a mock up in future to see if we want A4 or postcard
+
+- 3 pages due on the 19th and walkability map
+  + vince coordinating a public health bulletin
+  + a map of walkability attributes
+    * vince to recreate soumya's map,
+    * and one other option, possibly disease map?
+
+- report
+  + Table of contents error link
+  + final 5 typos to coco
+  + aadd the ISBN
+  + press release Tom to coordinate with help of UC media
+  + TODO we discuss who 
+    + who will field questions?
+    + who will be the speaking head if required?
+
+- version control and coordinating author and co-author roles
+
+- walking clusters paper
+  + soumya leads it but it is a ceraph product?
+  + Ivan to follow up with soumya to get the data for inhouse storage
+  + Tom to work in some methods advice (log transform)
+***** DONE ISBN
+
+
+From: Lisa.Roulstone On Behalf Of Orders
+Sent: Tuesday, 9 August 2016 11:23 AM
+To: Rachel.Davey
+Subject: RE: ISBN Allocation
+
+ 
+
+Dear RACHEL DAVEY,
+
+Thankyou for your request for an ISBN. Your ISBN is listed below.
+Details
+
+Title: Influence of neighbourhood on the burden of non communicable diseases in the Australian Capital Territory: A Working Paper
+Author/Editor: Soumya Mazumdar, Vincent Learnihan, Tom Cochrane, Ivan Hanigan, Rachel Davey
+Format: Print
+
+YOUR ISBN IS:   978-1-74088-445-7
+Print Publications
+
+When published please supply -
+
+2 copies of your publication to the UC Library addressed to the Resource Services Team and clearly marked UC Publication
+
+and
+
+1 copy to Legal Deposit at the National Library -
+
+Legal Deposit Unit
+National Library of Australia
+Canberra ACT 2600
+Electronic Publications
+
+When published please send the URL of your publication to orders@canberra.edu.au
+***** DONE RWS drought report
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-08-09 Tue, ceraph, 50
+#+end_src
+*** 2016-08-10 Wed 
+**** TODO-list 
+***** DONE obs data inventory post report
+***** DONE ucrh bijan pic and links
+***** DONE rws review survey questions
+
+***** DONE rws drought report
+***** DONE obs soma walk cluster stuff
+***** DONE personal jog
+***** DONE ucrh aptema meeting
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-08-10 Wed, ceraph, 50
+#+end_src
+*** 2016-08-15 Mon 
+**** TODO-list 
+***** DONE RWS drought report
+***** DONE ceraph obs meet
+      SCHEDULED: <2016-08-15 Mon 12:30>
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-08-15 Mon, ceraph, 50
+#+end_src
+*** 2016-08-18 Thu 
+**** TODO-list 
+***** DONE rws drought
+***** DONE obs cvd walk
+***** DONE obs n'hood bulletin
+***** DONE swish rstudio
+***** DONE personal nteu
+***** DONE obs imp of scale data
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-08-18 Thu, ceraph, 50
+#+end_src
+*** 2016-08-22 Mon 
+**** TODO-list 
+***** DONE obs report ecopy to bron and gin, update living doco
+***** DONE RWS meeting re survey
+***** DONE RWS neighbourhood friendliness 
+
+***** DONE ucrh project exposures
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-08-22 Mon, ceraph, 50
+#+end_src
+*** 2016-08-25 Thu 
+**** TODO-list 
+***** DONE personal ucrh timesheet
+***** DONE personal car fellowship to gof
+      SCHEDULED: <2016-08-25 Thu 11:00>
+***** DONE obs scale fix sa3
+***** DONE RWS drought bag
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-08-25 Thu, ceraph, 50
+#+end_src
+*** 2016-08-26 Fri 
+**** TODO-list 
+***** DONE obs scale fix stand pop
+***** DONE personal car fellowship
+***** DONE RWS drought swish
+
+***** DONE personal car fellowship
+      SCHEDULED: <2016-08-26 Fri 16:00>
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-08-26 Fri, ceraph, 50
+#+end_src
+*** 2016-08-29 Mon 
+**** TODO-list 
+***** DONE ewe drought for iraq
+***** DONE RWS drought swish
+
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-08-29 Mon, ceraph, 50
+#+end_src
+*** 2016-08-30 Tue 
+**** TODO-list 
+***** TODO RWS drought swish
+***** TODO RWS TransformSurveyTools pres, sync with Long, sync with Powers
+**** timesheet
+#+begin_src txt :tangle work-log.csv :eval no :padline no
+2016-08-30 Tue, ceraph, 50
 #+end_src
