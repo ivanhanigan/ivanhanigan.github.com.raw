@@ -4,7 +4,7 @@ layout: post
 title: climatic-drought-guestpost-by-luciana-porfirio
 date: 2013-11-01
 categories:
-- extreme weather events
+- climatic and agricultural drought
 ---
 
 ### Guest post by Luciana Porfirio with code contributions by Francis Markham

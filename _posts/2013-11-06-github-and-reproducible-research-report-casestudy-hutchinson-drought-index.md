@@ -4,7 +4,7 @@ layout: post
 title: Github And Reproducible Research Report Casestudy Hutchinson Drought Index
 date: 2013-11-06
 categories:
-- extreme weather events
+- climatic and agricultural drought
 ---
 
 ### Background
